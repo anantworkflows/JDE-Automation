@@ -36,14 +36,14 @@ jobs:
     - name: Determine test to run
       id: test-selection
       run: |
-        if [ "${{ github.event.inputs.test_case }}" = "TC-JDE-001" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-001" ]; then
-          echo "test_script=scripts/jde-order-to-cash.ts" >> $GITHUB_OUTPUT
+        if [ "${{ github.event.inputs.test_case }}" = "TC-JDE-001" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-001" ] || [ "${{ github.event.client_payload.test_case }}" = "KAN-21" ]; then
+          echo "test_script=scripts/order-to-cash.ts" >> $GITHUB_OUTPUT
           echo "test_name=Order-to-Cash" >> $GITHUB_OUTPUT
-        elif [ "${{ github.event.inputs.test_case }}" = "TC-JDE-002" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-002" ]; then
+        elif [ "${{ github.event.inputs.test_case }}" = "TC-JDE-002" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-002" ] || [ "${{ github.event.client_payload.test_case }}" = "KAN-22" ]; then
           echo "test_script=scripts/jde-procure-to-pay.ts" >> $GITHUB_OUTPUT
           echo "test_name=Procure-to-Pay" >> $GITHUB_OUTPUT
         else
-          echo "test_script=scripts/jde-order-to-cash.ts" >> $GITHUB_OUTPUT
+          echo "test_script=scripts/order-to-cash.ts" >> $GITHUB_OUTPUT
           echo "test_name=Order-to-Cash (default)" >> $GITHUB_OUTPUT
         fi
         
