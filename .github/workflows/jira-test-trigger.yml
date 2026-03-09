@@ -1,0 +1,101 @@
+name: Jira Test Execution
+
+on:
+  repository_dispatch:
+    types: [jira-test-trigger]
+  workflow_dispatch:
+    inputs:
+      test_case:
+        description: 'Test case to run (TC-JDE-001 or TC-JDE-002)'
+        required: true
+        default: 'TC-JDE-001'
+      jira_issue:
+        description: 'Jira issue key (e.g., QA-123)'
+        required: true
+
+jobs:
+  run-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Install Playwright
+      run: npx playwright install chromium
+      
+    - name: Determine test to run
+      id: test-selection
+      run: |
+        if [ "${{ github.event.inputs.test_case }}" = "TC-JDE-001" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-001" ]; then
+          echo "test_script=scripts/jde-order-to-cash.ts" >> $GITHUB_OUTPUT
+          echo "test_name=Order-to-Cash" >> $GITHUB_OUTPUT
+        elif [ "${{ github.event.inputs.test_case }}" = "TC-JDE-002" ] || [ "${{ github.event.client_payload.test_case }}" = "TC-JDE-002" ]; then
+          echo "test_script=scripts/jde-procure-to-pay.ts" >> $GITHUB_OUTPUT
+          echo "test_name=Procure-to-Pay" >> $GITHUB_OUTPUT
+        else
+          echo "test_script=scripts/jde-order-to-cash.ts" >> $GITHUB_OUTPUT
+          echo "test_name=Order-to-Cash (default)" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Run Test
+      run: npx ts-node ${{ steps.test-selection.outputs.test_script }}
+      env:
+        JDE_URL: https://demo.steltix.com/jde
+        JDE_USERNAME: demo
+        JDE_PASSWORD: demo
+        HEADLESS: true
+      timeout-minutes: 5
+      continue-on-error: true
+      
+    - name: Upload test artifacts
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results-${{ github.run_id }}
+        path: |
+          screenshots/
+          reports/
+          logs/
+        retention-days: 30
+        
+    - name: Generate test summary
+      id: summary
+      if: always()
+      run: |
+        echo "## Test Execution Summary" > summary.md
+        echo "" >> summary.md
+        echo "- **Test Case:** ${{ github.event.inputs.test_case || github.event.client_payload.test_case }}" >> summary.md
+        echo "- **Test Name:** ${{ steps.test-selection.outputs.test_name }}" >> summary.md
+        echo "- **Status:** ${{ job.status }}" >> summary.md
+        echo "- **Run ID:** ${{ github.run_id }}" >> summary.md
+        echo "- **Timestamp:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> summary.md
+        echo "" >> summary.md
+        echo "[View Full Results](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> summary.md
+        
+    - name: Comment on Jira Issue
+      if: always() && (github.event.inputs.jira_issue || github.event.client_payload.jira_issue)
+      uses: atlassian/gajira-comment@v3
+      with:
+        issue: ${{ github.event.inputs.jira_issue || github.event.client_payload.jira_issue }}
+        comment: |
+          🤖 *Automation Test Execution Complete*
+          
+          *Test Case:* ${{ github.event.inputs.test_case || github.event.client_payload.test_case }}
+          *Status:* ${{ job.status }}
+          *Run:* ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          
+          Artifacts (screenshots, reports) available for 30 days.
+      env:
+        JIRA_BASE_URL: https://workflows.atlassian.net
+        JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
