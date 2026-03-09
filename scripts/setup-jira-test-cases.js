@@ -15,11 +15,18 @@ const path = require('path');
 
 const JIRA_BASE_URL = process.env.JIRA_BASE_URL || 'https://workflows.atlassian.net';
 const JIRA_TOKEN = process.env.JIRA_API_TOKEN;
+const JIRA_EMAIL = process.env.JIRA_USER_EMAIL;
 const PROJECT_KEY = process.env.JIRA_PROJECT_KEY || 'QA';
 
 if (!JIRA_TOKEN) {
   console.error('❌ Error: JIRA_API_TOKEN environment variable required');
   console.error('   Get your token from: https://id.atlassian.com/manage-profile/security/api-tokens');
+  process.exit(1);
+}
+
+if (!JIRA_EMAIL) {
+  console.error('❌ Error: JIRA_USER_EMAIL environment variable required');
+  console.error('   Use your Atlassian account email address');
   process.exit(1);
 }
 
@@ -100,6 +107,9 @@ h2. Automation Script
 async function createTestCase(testCase) {
   console.log(`\n📝 Creating: ${testCase.summary}`);
   
+  // Build auth header: email:token base64 encoded
+  const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString('base64');
+  
   try {
     const response = await axios.post(
       `${JIRA_BASE_URL}/rest/api/3/issue`,
@@ -113,10 +123,7 @@ async function createTestCase(testCase) {
             content: [
               {
                 type: 'paragraph',
-                content: testCase.description.split('\n').map(line => ({
-                  type: 'text',
-                  text: line + '\n'
-                }))
+                content: [{ type: 'text', text: testCase.description }]
               }
             ]
           },
@@ -128,7 +135,7 @@ async function createTestCase(testCase) {
       },
       {
         headers: {
-          'Authorization': `Basic ${Buffer.from(`:${JIRA_TOKEN}`).toString('base64')}`,
+          'Authorization': `Basic ${auth}`,
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         }
@@ -139,6 +146,9 @@ async function createTestCase(testCase) {
     return response.data.key;
   } catch (error) {
     console.error(`   ❌ Failed to create test case:`, error.response?.data?.errorMessages?.[0] || error.message);
+    if (error.response?.data?.errors) {
+      console.error('   Details:', JSON.stringify(error.response.data.errors, null, 2));
+    }
     throw error;
   }
 }
@@ -151,6 +161,7 @@ async function attachScript(issueKey, scriptPath, scriptName) {
     return;
   }
   
+  const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString('base64');
   const FormData = require('form-data');
   const form = new FormData();
   form.append('file', fs.createReadStream(scriptPath), scriptName);
@@ -162,7 +173,7 @@ async function attachScript(issueKey, scriptPath, scriptName) {
       {
         headers: {
           ...form.getHeaders(),
-          'Authorization': `Basic ${Buffer.from(`:${JIRA_TOKEN}`).toString('base64')}`,
+          'Authorization': `Basic ${auth}`,
           'X-Atlassian-Token': 'no-check'
         }
       }
@@ -175,6 +186,8 @@ async function attachScript(issueKey, scriptPath, scriptName) {
 
 async function addRemoteLink(issueKey, url, title) {
   console.log(`   🔗 Adding remote link: ${title}`);
+  
+  const auth = Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString('base64');
   
   try {
     await axios.post(
@@ -193,7 +206,7 @@ async function addRemoteLink(issueKey, url, title) {
       },
       {
         headers: {
-          'Authorization': `Basic ${Buffer.from(`:${JIRA_TOKEN}`).toString('base64')}`,
+          'Authorization': `Basic ${auth}`,
           'Content-Type': 'application/json'
         }
       }
@@ -222,7 +235,7 @@ async function main() {
       
       // Determine which script to attach
       const isOrderToCash = testCase.summary.includes('Order-to-Cash');
-      const scriptName = isOrderToCash ? 'jde-order-to-cash.ts' : 'jde-procure-to-pay.ts';
+      const scriptName = isOrderToCash ? 'order-to-cash.ts' : 'jde-procure-to-pay.ts';
       const scriptPath = path.join(__dirname, '..', 'scripts', scriptName);
       
       // Attach script file
