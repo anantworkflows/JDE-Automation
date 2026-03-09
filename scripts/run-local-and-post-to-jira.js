@@ -105,16 +105,25 @@ function parseResults(output, testName) {
   return results;
 }
 
-async function addJiraComment(issueKey, comment) {
-  try {
-    await axios.post(
-      `${JIRA_BASE_URL}/rest/api/3/issue/${issueKey}/comment`,
-      { body: { type: 'doc', version: 1, content: [{ type: 'paragraph', content: [{ type: 'text', text: comment }] }] } },
-      { headers: { 'Authorization': `Basic ${getAuth()}`, 'Content-Type': 'application/json' } }
-    );
-    console.log(`   ✅ Comment added to ${issueKey}`);
-  } catch (e) {
-    console.error(`   ❌ Failed to add comment:`, e.message);
+async function addJiraComment(issueKey, comment, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      await axios.post(
+        `${JIRA_BASE_URL}/rest/api/3/issue/${issueKey}/comment`,
+        { body: { type: 'doc', version: 1, content: [{ type: 'paragraph', content: [{ type: 'text', text: comment }] }] } },
+        { headers: { 'Authorization': `Basic ${getAuth()}`, 'Content-Type': 'application/json' }, timeout: 10000 }
+      );
+      console.log(`   ✅ Comment added to ${issueKey}`);
+      return;
+    } catch (e) {
+      console.error(`   ⚠️  Attempt ${i + 1} failed:`, e.message);
+      if (i < retries - 1) {
+        console.log(`   🔄 Retrying in 2s...`);
+        await new Promise(r => setTimeout(r, 2000));
+      } else {
+        console.error(`   ❌ Failed to add comment after ${retries} attempts`);
+      }
+    }
   }
 }
 
@@ -178,9 +187,15 @@ async function attachScreenshots(issueKey) {
   
   for (const file of files.slice(-5)) { // Only last 5 screenshots
     const filePath = path.join(screenshotsDir, file);
+    await attachFileWithRetry(issueKey, filePath, file);
+  }
+}
+
+async function attachFileWithRetry(issueKey, filePath, fileName, retries = 3) {
+  for (let i = 0; i < retries; i++) {
     const FormData = require('form-data');
     const form = new FormData();
-    form.append('file', fs.createReadStream(filePath), file);
+    form.append('file', fs.createReadStream(filePath), fileName);
 
     try {
       await axios.post(
@@ -191,12 +206,20 @@ async function attachScreenshots(issueKey) {
             ...form.getHeaders(),
             'Authorization': `Basic ${getAuth()}`,
             'X-Atlassian-Token': 'no-check'
-          }
+          },
+          timeout: 30000
         }
       );
-      console.log(`   ✅ Attached: ${file}`);
+      console.log(`   ✅ Attached: ${fileName}`);
+      return;
     } catch (e) {
-      console.error(`   ❌ Failed to attach ${file}:`, e.message);
+      console.error(`   ⚠️  Attempt ${i + 1} failed for ${fileName}:`, e.message);
+      if (i < retries - 1) {
+        console.log(`   🔄 Retrying in 2s...`);
+        await new Promise(r => setTimeout(r, 2000));
+      } else {
+        console.error(`   ❌ Failed to attach ${fileName} after ${retries} attempts`);
+      }
     }
   }
 }
