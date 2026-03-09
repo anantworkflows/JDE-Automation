@@ -1,0 +1,296 @@
+2026-03-08T00:10:32.247Z [INFO]: Starting JDE Page Inspector
+2026-03-08T00:10:34.006Z [INFO]: Navigating to JDE login page...
+2026-03-08T00:10:56.694Z [INFO]: === LOGIN PAGE LOADED ===
+2026-03-08T00:10:59.726Z [INFO]: Found 4 input elements on login page
+2026-03-08T00:10:59.733Z [INFO]:   Input 0: name="jdeowpBackButtonProtect", id="jdeowpBackButtonProtect", type="hidden", placeholder="null"
+2026-03-08T00:10:59.737Z [INFO]:   Input 1: name="User", id="User", type="text", placeholder="null"
+2026-03-08T00:10:59.739Z [INFO]:   Input 2: name="Password", id="Password", type="password", placeholder="null"
+2026-03-08T00:10:59.741Z [INFO]:   Input 3: name="null", id="null", type="submit", placeholder="null"
+2026-03-08T00:10:59.741Z [INFO]: Filling login credentials...
+2026-03-08T00:11:02.141Z [INFO]: Waiting for JDE to load after login...
+2026-03-08T00:11:10.144Z [INFO]: 
+=== FOUND 17 FRAMES ===
+2026-03-08T00:11:10.145Z [INFO]: 
+Frame 0: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED
+2026-03-08T00:11:10.158Z [INFO]:   Found 58 inputs in this frame
+2026-03-08T00:11:10.165Z [INFO]:     Input: name="", id="userSearch", placeholder="Search", aria-label="EnterpriseOne Search Input Field. Type in filter and then use down or up arrow to navigate the search options and then use Enter key to start the search with the search option. Use ESC key to navigate back to EnterpriseOne Search Input Field.", visible=true
+2026-03-08T00:11:10.169Z [INFO]:     Input: name="paramRole", id="e1MRoleSelect", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.174Z [INFO]:     Input: name="globalRID", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.177Z [INFO]:     Input: name="", id="menutitle_hidden", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.180Z [INFO]:     Input: name="divtag", id="E1MTreeFormDiv", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.204Z [INFO]:     Input: name="indent", id="E1MTreeFormIndent", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.209Z [INFO]:     Input: name="nodeId", id="E1MTreeFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.212Z [INFO]:     Input: name="nodeTitle", id="E1MTreeFormNodeTitle", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.214Z [INFO]:     Input: name="paramRole", id="E1MTreeFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.217Z [INFO]:     Input: name="paramCollapsed", id="E1MTreeFormCollapsed", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.219Z [INFO]:     Input: name="a", id="E1MTreeFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.221Z [INFO]:     Input: name="nodeId", id="E1MCrystalFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.224Z [INFO]:     Input: name="a", id="E1MCrystalFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.226Z [INFO]:     Input: name="nodeId", id="E1MOVRFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.228Z [INFO]:     Input: name="a", id="E1MOVRFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.230Z [INFO]:     Input: name="nodeId", id="E1MExternalAppFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.232Z [INFO]:     Input: name="menuNodeInstanceId", id="E1MExternalAppNodeInstanceId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.234Z [INFO]:     Input: name="a", id="E1MExternalAppFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.236Z [INFO]:     Input: name="a", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.239Z [INFO]:     Input: name="paramRole", id="E1PurgeCacheFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.242Z [INFO]:     Input: name="a", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.249Z [INFO]:     Input: name="taskId", id="E1MFavoritesTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.253Z [INFO]:     Input: name="pTaskId", id="E1MFavoritesParentTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.256Z [INFO]:     Input: name="taskView", id="E1MFavoritesTaskView", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.257Z [INFO]:     Input: name="taskSeqNum", id="E1MFavoritesSeqNum", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.259Z [INFO]:     Input: name="a", id="E1MFavoritesAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.262Z [INFO]:     Input: name="taskNewName", id="E1MFavoritesNewName", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.264Z [INFO]:     Input: name="E1MFavoritesSeqNumMoved", id="E1MFavoritesSeqNumMoved", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.266Z [INFO]:     Input: name="udftaskId", id="E1MFavoritesUserDefinedFolderTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.268Z [INFO]:     Input: name="E1MFavoritesReorganizeId", id="E1MFavoritesReorganizeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.270Z [INFO]:     Input: name="menuItemNodeId", id="E1MFavoritesLaunchingMenuItemNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.272Z [INFO]:     Input: name="appId", id="E1MFavoritesAppId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.274Z [INFO]:     Input: name="formId", id="E1MFavoritesFormId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.277Z [INFO]:     Input: name="appVersion", id="E1MFavoritesAppVersion", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.279Z [INFO]:     Input: name="formMode", id="E1MFavoritesFormMode", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.281Z [INFO]:     Input: name="formTitle", id="E1MFavoritesFormTitle", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.283Z [INFO]:     Input: name="activateSilent", id="E1MFavoritesFormActivateSilent", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.285Z [INFO]:     Input: name="RID", id="E1MFavoritesFormRid", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.287Z [INFO]:     Input: name="RID", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.291Z [INFO]:     Input: name="a", id="TE_FAST_PATH_BOX", placeholder="Fast Path", aria-label="Fast Path", visible=false
+2026-03-08T00:11:10.296Z [INFO]:     Input: name="", id="E1MFavTreeFormDiv", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.301Z [INFO]:     Input: name="", id="E1MFavTreeFormIndent", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.305Z [INFO]:     Input: name="", id="E1MFavTreeFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.312Z [INFO]:     Input: name="", id="E1MFavTreeFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.315Z [INFO]:     Input: name="", id="E1MFavTreeFormCollapsed", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.317Z [INFO]:     Input: name="", id="E1MFavTreeFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.319Z [INFO]:     Input: name="", id="E1MFavCrystalFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.321Z [INFO]:     Input: name="", id="E1MFavCrystalFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.324Z [INFO]:     Input: name="", id="E1FavPurgeCacheFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.328Z [INFO]:     Input: name="", id="stopOnWarning_Slider", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.330Z [INFO]:     Input: name="", id="assertions_Slider", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.332Z [INFO]:     Input: name="", id="returnValuesFilterTxt", placeholder="Filter Controls", aria-label="", visible=false
+2026-03-08T00:11:10.334Z [INFO]:     Input: name="", id="columnFilterTxt", placeholder="Filter Columns", aria-label="", visible=false
+2026-03-08T00:11:10.336Z [INFO]:     Input: name="", id="captureName", placeholder="Service Request", aria-label="", visible=false
+2026-03-08T00:11:10.338Z [INFO]:     Input: name="", id="captureDesc", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.340Z [INFO]:     Input: name="", id="captureProductCode", placeholder="", aria-label="", visible=false
+2026-03-08T00:11:10.341Z [INFO]:   ✓ FOUND Fast Path input(s): 1
+2026-03-08T00:11:10.354Z [INFO]:     Fast Path: id=TE_FAST_PATH_BOX, visible=false, enabled=true, display=inline-block, visibility=visible
+2026-03-08T00:11:10.354Z [INFO]:     Trying to activate Fast Path...
+2026-03-08T00:11:11.863Z [INFO]:     After Alt+F: visible=false
+2026-03-08T00:11:11.866Z [INFO]:   Found 24 clickable elements
+2026-03-08T00:11:11.872Z [INFO]:     Menu 1: "All My Roles"
+2026-03-08T00:11:11.877Z [INFO]:     Menu 3: "Sign Out"
+2026-03-08T00:11:11.879Z [INFO]:     Menu 4: "(My Searches)"
+2026-03-08T00:11:11.881Z [INFO]:     Menu 5: "(All Searches)"
+2026-03-08T00:11:11.882Z [INFO]:     Menu 6: "Customer-AK•"
+2026-03-08T00:11:11.883Z [INFO]:     Menu 7: "Item Use"
+2026-03-08T00:11:11.885Z [INFO]:     Menu 8: "Customer"
+2026-03-08T00:11:11.886Z [INFO]:     Menu 9: "Items"
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 1: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 2: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 3: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 4: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 5: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 6: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 7: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 8: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 9: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.886Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.886Z [INFO]: 
+Frame 10: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_5085094159607102464&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome
+2026-03-08T00:11:11.893Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:11:11.895Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:11:11.895Z [INFO]: 
+Frame 11: about:blank
+2026-03-08T00:11:11.895Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.895Z [INFO]: 
+Frame 12: 
+2026-03-08T00:11:11.900Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:11:11.901Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:11:11.901Z [INFO]: 
+Frame 13: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0
+2026-03-08T00:11:11.906Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:11:11.907Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:11:11.907Z [INFO]: 
+Frame 14: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:11:11.907Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:11:11.907Z [INFO]: 
+Frame 15: https://guidedlearning.oracle.com/player/launcher/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30
+2026-03-08T00:11:11.915Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:11:11.917Z [INFO]:   Found 1 clickable elements
+2026-03-08T00:11:11.918Z [INFO]: 
+Frame 16: https://guidedlearning.oracle.com/player/contentWidget/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30&helpHotKey=Alt%2BCtrl%2BH&guideHotKey=Alt%2BCtrl%2BG&displayGHroupHotKey=Alt%2BCtrl%2BM&languageSelectionHotKey=Alt%2BCtrl%2BL
+2026-03-08T00:11:11.922Z [INFO]:   Found 1 inputs in this frame
+2026-03-08T00:11:11.925Z [INFO]:     Input: name="", id="", placeholder="Search...", aria-label="Enter text to search for help guides", visible=true
+2026-03-08T00:11:11.926Z [INFO]:   Found 8 clickable elements
+2026-03-08T00:11:11.927Z [INFO]:     Menu 1: "Try It Out!"
+2026-03-08T00:11:11.927Z [INFO]:     Menu 2: "Try OGL! - Check the Item Ledger"
+2026-03-08T00:11:11.928Z [INFO]:     Menu 4: "Find Out More"
+2026-03-08T00:11:11.929Z [INFO]:     Menu 5: "Visit the Steltix OGL4JDE Website"
+2026-03-08T00:11:11.932Z [INFO]:     Menu 7: "Need assistance? Click here to email the Help Desk"
+2026-03-08T00:11:12.068Z [INFO]: Final screenshot saved: ./screenshots/inspector-final.png
+2026-03-08T00:11:12.068Z [INFO]: 
+=== INSPECTION COMPLETE ===
+2026-03-08T00:11:12.068Z [INFO]: Browser will remain open for 30 seconds
+2026-03-08T00:11:42.069Z [INFO]: Closing browser...
+2026-03-08T00:25:54.617Z [INFO]: Starting JDE Page Inspector
+2026-03-08T00:25:55.804Z [INFO]: Navigating to JDE login page...
+2026-03-08T00:26:19.340Z [INFO]: === LOGIN PAGE LOADED ===
+2026-03-08T00:26:22.370Z [INFO]: Found 4 input elements on login page
+2026-03-08T00:26:22.378Z [INFO]:   Input 0: name="jdeowpBackButtonProtect", id="jdeowpBackButtonProtect", type="hidden", placeholder="null"
+2026-03-08T00:26:22.381Z [INFO]:   Input 1: name="User", id="User", type="text", placeholder="null"
+2026-03-08T00:26:22.384Z [INFO]:   Input 2: name="Password", id="Password", type="password", placeholder="null"
+2026-03-08T00:26:22.386Z [INFO]:   Input 3: name="null", id="null", type="submit", placeholder="null"
+2026-03-08T00:26:22.386Z [INFO]: Filling login credentials...
+2026-03-08T00:26:24.823Z [INFO]: Waiting for JDE to load after login...
+2026-03-08T00:26:32.825Z [INFO]: 
+=== FOUND 17 FRAMES ===
+2026-03-08T00:26:32.826Z [INFO]: 
+Frame 0: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED
+2026-03-08T00:26:32.851Z [INFO]:   Found 58 inputs in this frame
+2026-03-08T00:26:32.857Z [INFO]:     Input: name="", id="userSearch", placeholder="Search", aria-label="EnterpriseOne Search Input Field. Type in filter and then use down or up arrow to navigate the search options and then use Enter key to start the search with the search option. Use ESC key to navigate back to EnterpriseOne Search Input Field.", visible=true
+2026-03-08T00:26:32.861Z [INFO]:     Input: name="paramRole", id="e1MRoleSelect", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.865Z [INFO]:     Input: name="globalRID", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.868Z [INFO]:     Input: name="", id="menutitle_hidden", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.871Z [INFO]:     Input: name="divtag", id="E1MTreeFormDiv", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.873Z [INFO]:     Input: name="indent", id="E1MTreeFormIndent", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.896Z [INFO]:     Input: name="nodeId", id="E1MTreeFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.901Z [INFO]:     Input: name="nodeTitle", id="E1MTreeFormNodeTitle", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.903Z [INFO]:     Input: name="paramRole", id="E1MTreeFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.905Z [INFO]:     Input: name="paramCollapsed", id="E1MTreeFormCollapsed", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.907Z [INFO]:     Input: name="a", id="E1MTreeFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.910Z [INFO]:     Input: name="nodeId", id="E1MCrystalFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.912Z [INFO]:     Input: name="a", id="E1MCrystalFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.914Z [INFO]:     Input: name="nodeId", id="E1MOVRFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.916Z [INFO]:     Input: name="a", id="E1MOVRFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.919Z [INFO]:     Input: name="nodeId", id="E1MExternalAppFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.921Z [INFO]:     Input: name="menuNodeInstanceId", id="E1MExternalAppNodeInstanceId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.923Z [INFO]:     Input: name="a", id="E1MExternalAppFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.925Z [INFO]:     Input: name="a", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.928Z [INFO]:     Input: name="paramRole", id="E1PurgeCacheFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.930Z [INFO]:     Input: name="a", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.932Z [INFO]:     Input: name="taskId", id="E1MFavoritesTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.934Z [INFO]:     Input: name="pTaskId", id="E1MFavoritesParentTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.936Z [INFO]:     Input: name="taskView", id="E1MFavoritesTaskView", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.944Z [INFO]:     Input: name="taskSeqNum", id="E1MFavoritesSeqNum", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.946Z [INFO]:     Input: name="a", id="E1MFavoritesAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.948Z [INFO]:     Input: name="taskNewName", id="E1MFavoritesNewName", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.950Z [INFO]:     Input: name="E1MFavoritesSeqNumMoved", id="E1MFavoritesSeqNumMoved", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.952Z [INFO]:     Input: name="udftaskId", id="E1MFavoritesUserDefinedFolderTaskId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.954Z [INFO]:     Input: name="E1MFavoritesReorganizeId", id="E1MFavoritesReorganizeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.956Z [INFO]:     Input: name="menuItemNodeId", id="E1MFavoritesLaunchingMenuItemNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.958Z [INFO]:     Input: name="appId", id="E1MFavoritesAppId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.961Z [INFO]:     Input: name="formId", id="E1MFavoritesFormId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.966Z [INFO]:     Input: name="appVersion", id="E1MFavoritesAppVersion", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.972Z [INFO]:     Input: name="formMode", id="E1MFavoritesFormMode", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.976Z [INFO]:     Input: name="formTitle", id="E1MFavoritesFormTitle", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.983Z [INFO]:     Input: name="activateSilent", id="E1MFavoritesFormActivateSilent", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.987Z [INFO]:     Input: name="RID", id="E1MFavoritesFormRid", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.989Z [INFO]:     Input: name="RID", id="", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.991Z [INFO]:     Input: name="a", id="TE_FAST_PATH_BOX", placeholder="Fast Path", aria-label="Fast Path", visible=false
+2026-03-08T00:26:32.993Z [INFO]:     Input: name="", id="E1MFavTreeFormDiv", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.995Z [INFO]:     Input: name="", id="E1MFavTreeFormIndent", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.997Z [INFO]:     Input: name="", id="E1MFavTreeFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:32.999Z [INFO]:     Input: name="", id="E1MFavTreeFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.001Z [INFO]:     Input: name="", id="E1MFavTreeFormCollapsed", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.003Z [INFO]:     Input: name="", id="E1MFavTreeFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.005Z [INFO]:     Input: name="", id="E1MFavCrystalFormNodeId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.007Z [INFO]:     Input: name="", id="E1MFavCrystalFormAction", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.011Z [INFO]:     Input: name="", id="E1FavPurgeCacheFormRoleId", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.015Z [INFO]:     Input: name="", id="stopOnWarning_Slider", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.017Z [INFO]:     Input: name="", id="assertions_Slider", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.019Z [INFO]:     Input: name="", id="returnValuesFilterTxt", placeholder="Filter Controls", aria-label="", visible=false
+2026-03-08T00:26:33.022Z [INFO]:     Input: name="", id="columnFilterTxt", placeholder="Filter Columns", aria-label="", visible=false
+2026-03-08T00:26:33.024Z [INFO]:     Input: name="", id="captureName", placeholder="Service Request", aria-label="", visible=false
+2026-03-08T00:26:33.026Z [INFO]:     Input: name="", id="captureDesc", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.028Z [INFO]:     Input: name="", id="captureProductCode", placeholder="", aria-label="", visible=false
+2026-03-08T00:26:33.029Z [INFO]:   ✓ FOUND Fast Path input(s): 1
+2026-03-08T00:26:33.041Z [INFO]:     Fast Path: id=TE_FAST_PATH_BOX, visible=false, enabled=true, display=inline-block, visibility=visible
+2026-03-08T00:26:33.041Z [INFO]:     Trying to activate Fast Path...
+2026-03-08T00:26:34.550Z [INFO]:     After Alt+F: visible=false
+2026-03-08T00:26:34.554Z [INFO]:   Found 24 clickable elements
+2026-03-08T00:26:34.559Z [INFO]:     Menu 1: "All My Roles"
+2026-03-08T00:26:34.567Z [INFO]:     Menu 3: "Sign Out"
+2026-03-08T00:26:34.569Z [INFO]:     Menu 4: "(My Searches)"
+2026-03-08T00:26:34.571Z [INFO]:     Menu 5: "(All Searches)"
+2026-03-08T00:26:34.572Z [INFO]:     Menu 6: "Customer-AK•"
+2026-03-08T00:26:34.574Z [INFO]:     Menu 7: "Item Use"
+2026-03-08T00:26:34.575Z [INFO]:     Menu 8: "Customer"
+2026-03-08T00:26:34.577Z [INFO]:     Menu 9: "Items"
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 1: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 2: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 3: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 4: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 5: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 6: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 7: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 8: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 9: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.577Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.577Z [INFO]: 
+Frame 10: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_8709986761500765184&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome
+2026-03-08T00:26:34.583Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:26:34.585Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:26:34.585Z [INFO]: 
+Frame 11: about:blank
+2026-03-08T00:26:34.585Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.585Z [INFO]: 
+Frame 12: 
+2026-03-08T00:26:34.590Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:26:34.591Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:26:34.591Z [INFO]: 
+Frame 13: https://guidedlearning.oracle.com/player/launcher/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30
+2026-03-08T00:26:34.600Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:26:34.601Z [INFO]:   Found 1 clickable elements
+2026-03-08T00:26:34.602Z [INFO]: 
+Frame 14: https://guidedlearning.oracle.com/player/contentWidget/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30&helpHotKey=Alt%2BCtrl%2BH&guideHotKey=Alt%2BCtrl%2BG&displayGHroupHotKey=Alt%2BCtrl%2BM&languageSelectionHotKey=Alt%2BCtrl%2BL
+2026-03-08T00:26:34.606Z [INFO]:   Found 1 inputs in this frame
+2026-03-08T00:26:34.610Z [INFO]:     Input: name="", id="", placeholder="Search...", aria-label="Enter text to search for help guides", visible=true
+2026-03-08T00:26:34.611Z [INFO]:   Found 8 clickable elements
+2026-03-08T00:26:34.612Z [INFO]:     Menu 1: "Try It Out!"
+2026-03-08T00:26:34.613Z [INFO]:     Menu 2: "Try OGL! - Check the Item Ledger"
+2026-03-08T00:26:34.614Z [INFO]:     Menu 4: "Find Out More"
+2026-03-08T00:26:34.615Z [INFO]:     Menu 5: "Visit the Steltix OGL4JDE Website"
+2026-03-08T00:26:34.616Z [INFO]:     Menu 7: "Need assistance? Click here to email the Help Desk"
+2026-03-08T00:26:34.616Z [INFO]: 
+Frame 15: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0
+2026-03-08T00:26:34.620Z [INFO]:   Found 0 inputs in this frame
+2026-03-08T00:26:34.621Z [INFO]:   Found 0 clickable elements
+2026-03-08T00:26:34.621Z [INFO]: 
+Frame 16: https://demo.steltix.com/jde/share/https_dummy.html
+2026-03-08T00:26:34.621Z [INFO]:   (Skipping dummy frame)
+2026-03-08T00:26:34.783Z [INFO]: Final screenshot saved: ./screenshots/inspector-final.png
+2026-03-08T00:26:34.783Z [INFO]: 
+=== INSPECTION COMPLETE ===
+2026-03-08T00:26:34.783Z [INFO]: Browser will remain open for 30 seconds
+2026-03-08T00:27:04.786Z [INFO]: Closing browser...

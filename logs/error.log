@@ -1,0 +1,442 @@
+2026-03-07 18:55:47 [ERROR]: All 3 attempts failed: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[placeholder*=\\\"Fast Path\\\" i], input[name*=\\\"fastPath\\\" i]\",\"alternates\":[\"input[id*=\\\"fastPath\\\" i]\",\".fastpath input\",\"input[title*=\\\"Fast Path\\\" i]\"],\"textAnchors\":[\"Fast Path\"]}"}
+2026-03-07 18:55:47 [ERROR]: Failed to navigate via Fast Path: P01012 Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:55:47 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:55:47 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [ERROR]: Failed to navigate via Fast Path: P01012 locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [ERROR]: Order-to-Cash workflow failed: locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [ERROR]: Failed to navigate via Fast Path: P01012 locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [ERROR]: Order-to-Cash workflow failed: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 19:03:27 [ERROR]: All 3 attempts failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:03:28 [ERROR]: Step 3 failed: Create new customer Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:264:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:03:28 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:264:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:05:09 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:14:5
+2026-03-07 19:05:40 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:14:5
+2026-03-07 19:15:01 [ERROR]: All 3 attempts failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:15:02 [ERROR]: Step 3 failed: Create new customer Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:269:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:15:02 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:269:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:22:19 [ERROR]: Step 3 failed: Create new customer locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:186:21)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:20
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:18)
+2026-03-07 19:22:19 [ERROR]: Order-to-Cash workflow failed: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:186:21)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:20
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:18)
+2026-03-07 19:23:43 [ERROR]: Step 3 failed: Create new customer Add button not found in any frame {"service":"jde-automation"}
+Error: Add button not found in any frame
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:206:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:23:43 [ERROR]: Order-to-Cash workflow failed: Add button not found in any frame {"service":"jde-automation"}
+Error: Add button not found in any frame
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:206:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:25:38 [ERROR]: Step 3 failed: Create new customer Add button not found in any frame after multiple attempts {"service":"jde-automation"}
+Error: Add button not found in any frame after multiple attempts
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:235:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 19:25:38 [ERROR]: Order-to-Cash workflow failed: Add button not found in any frame after multiple attempts {"service":"jde-automation"}
+Error: Add button not found in any frame after multiple attempts
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:235:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:40:30 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at async JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:7)
+2026-03-07 20:40:30 [ERROR]: Order-to-Cash workflow failed: page.screenshot: Target page, context or browser has been closed {"service":"jde-automation"}
+page.screenshot: Target page, context or browser has been closed
+    at JDEHelper.takeScreenshot (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:346:21)
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:180:45)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:7)
+2026-03-07 20:46:59 [ERROR]: JDE login failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:46:59 [ERROR]: Step 1 failed: Login to JDE page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:46:59 [ERROR]: Order-to-Cash workflow failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:48:10 [ERROR]: Step 3 failed: Create new customer Address Book Revision form frame not found {"service":"jde-automation"}
+Error: Address Book Revision form frame not found
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:218:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:48:10 [ERROR]: Order-to-Cash workflow failed: Address Book Revision form frame not found {"service":"jde-automation"}
+Error: Address Book Revision form frame not found
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:218:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:51:57 [ERROR]: Step 5 failed: Create sales order locator.all: Target page, context or browser has been closed {"service":"jde-automation"}
+locator.all: Target page, context or browser has been closed
+    at OrderToCashWorkflow.createSalesOrder (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:345:66)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:101:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:100:7)
+2026-03-07 20:56:09 [ERROR]: Step 5 failed: Create sales order locator.all: Target page, context or browser has been closed {"service":"jde-automation"}
+locator.all: Target page, context or browser has been closed
+    at OrderToCashWorkflow.createSalesOrder (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:411:66)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:101:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:100:7)

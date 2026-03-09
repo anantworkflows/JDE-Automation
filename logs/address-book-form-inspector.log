@@ -1,0 +1,104 @@
+2026-03-08T01:17:32.376Z [INFO]: Starting Address Book Form Inspector
+2026-03-08T01:17:33.576Z [INFO]: === STEP 1: Login ===
+2026-03-08T01:18:29.496Z [INFO]: Login successful
+2026-03-08T01:18:29.496Z [INFO]: === STEP 2: Navigate to P01012 (Address Book) ===
+2026-03-08T01:18:42.127Z [INFO]: Navigation to P01012 complete
+2026-03-08T01:18:47.128Z [INFO]: === STEP 3: Clicking Add button ===
+2026-03-08T01:18:47.128Z [INFO]: Found Address Book frame: https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&e1.state=maximized&e1.service=RunApp&RID=519805efea7aa7b7
+2026-03-08T01:18:47.996Z [INFO]: Add button clicked
+2026-03-08T01:18:52.998Z [INFO]: === STEP 4: Inspecting Add Form ===
+2026-03-08T01:18:52.999Z [INFO]: Now have 17 frames
+2026-03-08T01:18:52.999Z [INFO]: 
+--- Frame 0: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED ---
+2026-03-08T01:18:53.002Z [INFO]:   Page title: Address Book Revision
+2026-03-08T01:18:53.002Z [INFO]:   
+  >>> ALL INPUT ELEMENTS <<<
+2026-03-08T01:18:53.006Z [INFO]:     Total inputs: 58
+2026-03-08T01:18:53.050Z [INFO]:     Input 0: type=null, name="null", id="userSearch", title="null", enabled=true
+2026-03-08T01:18:53.306Z [INFO]:   
+  >>> SEARCHING FOR CUSTOMER FIELDS <<<
+2026-03-08T01:18:53.330Z [INFO]:   
+  >>> ALL LABELS <<<
+2026-03-08T01:18:53.342Z [INFO]:     Found 8 unique labels
+2026-03-08T01:18:53.342Z [INFO]:       - "Fast Path"
+2026-03-08T01:18:53.342Z [INFO]:       - "Stop On Warning"
+2026-03-08T01:18:53.342Z [INFO]:       - "Return Controls:"
+2026-03-08T01:18:53.342Z [INFO]:       - "Return Columns:"
+2026-03-08T01:18:53.342Z [INFO]:       - "Capture Assertions"
+2026-03-08T01:18:53.342Z [INFO]:       - "Name:"
+2026-03-08T01:18:53.342Z [INFO]:       - "Description:"
+2026-03-08T01:18:53.342Z [INFO]:       - "Product Code:"
+2026-03-08T01:18:53.342Z [INFO]:   
+  >>> SAVE/OK BUTTONS <<<
+2026-03-08T01:18:53.347Z [INFO]: 
+--- Frame 10: https://demo.steltix.com/jde/E1Client.mafService?jdemafjascacheUID=19824&jdemafjasLauncher=PSFT_TE_V3_SW&jdemafjasUID=1&e1UserActInfo=true&e1.mode=view&jdemafjasComponent=JDE_HTMLCLIENT&e1.namespace=&RENDER_MAFLET=E1Menu&e1.state=maximized&e1.service=E1Client ---
+2026-03-08T01:18:53.348Z [INFO]:   Page title: Address Book Revision
+2026-03-08T01:18:53.348Z [INFO]:   
+  >>> ALL INPUT ELEMENTS <<<
+2026-03-08T01:18:53.351Z [INFO]:     Total inputs: 21
+2026-03-08T01:18:53.400Z [INFO]:     Input 15: type=text, name="0_21", id="C0_21", title="Address Number", enabled=true
+2026-03-08T01:18:53.403Z [INFO]:     Input 16: type=text, name="0_28", id="C0_28", title="Alpha Name", enabled=true
+2026-03-08T01:18:53.406Z [INFO]:     Input 17: type=text, name="0_32", id="C0_32", title="Long Address Number", enabled=true
+2026-03-08T01:18:53.409Z [INFO]:     Input 18: type=text, name="0_34", id="C0_34", title="Tax ID", enabled=true
+2026-03-08T01:18:53.412Z [INFO]:     Input 19: type=text, name="0_36", id="C0_36", title="Search Type", enabled=true
+2026-03-08T01:18:53.417Z [INFO]:     Input 20: type=text, name="0_62", id="C0_62", title="Business Unit", enabled=true
+2026-03-08T01:18:53.417Z [INFO]:   
+  >>> SEARCHING FOR CUSTOMER FIELDS <<<
+2026-03-08T01:18:53.420Z [INFO]:     ✓ Alpha Name FOUND: selector="input[title*="alpha" i]", name="0_28", id="C0_28", title="Alpha Name"
+2026-03-08T01:18:53.423Z [INFO]:     ✓ Alpha Name FOUND: selector="input[title*="name" i]", name="0_28", id="C0_28", title="Alpha Name"
+2026-03-08T01:18:53.425Z [INFO]:     ✓ Address Line 1 FOUND: selector="input[title*="address" i]", name="0_21", id="C0_21", title="Address Number"
+2026-03-08T01:18:53.427Z [INFO]:     ✓ Address Line 1 FOUND: selector="input[title*="address" i]", name="0_32", id="C0_32", title="Long Address Number"
+2026-03-08T01:18:53.440Z [INFO]:   
+  >>> ALL LABELS <<<
+2026-03-08T01:18:53.441Z [INFO]:     Found 1 unique labels
+2026-03-08T01:18:53.441Z [INFO]:       - "SUBMENU"
+2026-03-08T01:18:53.441Z [INFO]:   
+  >>> SAVE/OK BUTTONS <<<
+2026-03-08T01:18:53.442Z [INFO]:     ✓ SAVE/OK FOUND: selector="#hc_OK", id="hc_OK", alt="OK (Ctrl+Alt+O)"
+2026-03-08T01:18:53.444Z [INFO]:     ✓ SAVE/OK FOUND: selector="img[src*="OK"]", id="hc_OK", alt="OK (Ctrl+Alt+O)"
+2026-03-08T01:18:53.449Z [INFO]:     ✓ SAVE/OK FOUND: selector="img[alt*="OK"]", id="hc_OK", alt="OK (Ctrl+Alt+O)"
+2026-03-08T01:18:53.454Z [INFO]: 
+--- Frame 12:  ---
+2026-03-08T01:18:53.454Z [INFO]:   Page title: 
+2026-03-08T01:18:53.454Z [INFO]:   
+  >>> ALL INPUT ELEMENTS <<<
+2026-03-08T01:18:53.457Z [INFO]:     Total inputs: 0
+2026-03-08T01:18:53.457Z [INFO]:   
+  >>> SEARCHING FOR CUSTOMER FIELDS <<<
+2026-03-08T01:18:53.470Z [INFO]:   
+  >>> ALL LABELS <<<
+2026-03-08T01:18:53.471Z [INFO]:     Found 0 unique labels
+2026-03-08T01:18:53.471Z [INFO]:   
+  >>> SAVE/OK BUTTONS <<<
+2026-03-08T01:18:53.477Z [INFO]: 
+--- Frame 13: https://guidedlearning.oracle.com/player/launcher/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30 ---
+2026-03-08T01:18:53.477Z [INFO]:   Page title: Oracle Guided Learning Launcher
+2026-03-08T01:18:53.478Z [INFO]:   
+  >>> ALL INPUT ELEMENTS <<<
+2026-03-08T01:18:53.484Z [INFO]:     Total inputs: 0
+2026-03-08T01:18:53.484Z [INFO]:   
+  >>> SEARCHING FOR CUSTOMER FIELDS <<<
+2026-03-08T01:18:53.497Z [INFO]:   
+  >>> ALL LABELS <<<
+2026-03-08T01:18:53.498Z [INFO]:     Found 0 unique labels
+2026-03-08T01:18:53.498Z [INFO]:   
+  >>> SAVE/OK BUTTONS <<<
+2026-03-08T01:18:53.500Z [INFO]: 
+--- Frame 14: https://guidedlearning.oracle.com/player/contentWidget/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30&helpHotKey=Alt%2BCtrl%2BH&guideHotKey=Alt%2BCtrl%2BG&displayGHroupHotKey=Alt%2BCtrl%2BM&languageSelectionHotKey=Alt%2BCtrl%2BL ---
+2026-03-08T01:18:53.500Z [INFO]:   Page title: Oracle Guided Learning Widget
+2026-03-08T01:18:53.500Z [INFO]:   
+  >>> ALL INPUT ELEMENTS <<<
+2026-03-08T01:18:53.503Z [INFO]:     Total inputs: 1
+2026-03-08T01:18:53.507Z [INFO]:   
+  >>> SEARCHING FOR CUSTOMER FIELDS <<<
+2026-03-08T01:18:53.520Z [INFO]:   
+  >>> ALL LABELS <<<
+2026-03-08T01:18:53.520Z [INFO]:     Found 0 unique labels
+2026-03-08T01:18:53.520Z [INFO]:   
+  >>> SAVE/OK BUTTONS <<<
+2026-03-08T01:18:53.617Z [INFO]: 
+Screenshot saved: ./screenshots/address-book-add-form.png
+2026-03-08T01:18:53.617Z [INFO]: 
+=== INSPECTION COMPLETE ===
+2026-03-08T01:18:53.617Z [INFO]: Browser will remain open for 60 seconds for manual verification
+2026-03-08T01:19:53.621Z [INFO]: Closing browser...

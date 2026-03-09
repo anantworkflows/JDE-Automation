@@ -1,0 +1,104 @@
+{
+  "currentStep": 7,
+  "stepResults": [
+    {
+      "stepName": "login",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 28243,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/login-iter1-1772997588088.png",
+      "capturedValues": {}
+    },
+    {
+      "stepName": "navigate_address_book",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 9272,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/navigate_address_book-iter1-1772997597338.png",
+      "capturedValues": {}
+    },
+    {
+      "stepName": "create_customer",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 10559,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/create_customer-iter1-1772997607895.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    },
+    {
+      "stepName": "navigate_sales_order",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 9303,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/navigate_sales_order-iter1-1772997617212.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    },
+    {
+      "stepName": "create_sales_order",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 10290,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/create_sales_order-iter1-1772997627490.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    },
+    {
+      "stepName": "inventory_inquiry",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 12306,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/inventory_inquiry-iter1-1772997639795.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    },
+    {
+      "stepName": "shipment_confirmation",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 12299,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/shipment_confirmation-iter1-1772997652095.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    },
+    {
+      "stepName": "generate_invoice",
+      "iteration": 1,
+      "status": "PASS",
+      "durationMs": 14332,
+      "screenshot": "/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/screenshots/jde-evolution/generate_invoice-iter1-1772997666433.png",
+      "capturedValues": {
+        "customer_number": "1001"
+      }
+    }
+  ],
+  "capturedValues": {
+    "customer_number": "1001"
+  },
+  "evoScore": 1,
+  "regressionCount": 0,
+  "iterationsPerStep": {
+    "login": 1,
+    "navigate_address_book": 1,
+    "create_customer": 1,
+    "navigate_sales_order": 1,
+    "create_sales_order": 1,
+    "inventory_inquiry": 1,
+    "shipment_confirmation": 1
+  },
+  "startTime": 1772997559701,
+  "browser": {
+    "_type": "Browser",
+    "_guid": "browser@211117bc64f20596961180aabd0b30a5"
+  },
+  "page": {
+    "_type": "Page",
+    "_guid": "page@0d11678a1c57252ba781101ecaee1e8e"
+  }
+}

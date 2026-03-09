@@ -1,0 +1,593 @@
+{
+  "version": "1.0.0",
+  "description": "UI Abstraction Layer for JDE EnterpriseOne Automation",
+  "base_url": "https://demo.steltix.com/jde",
+  "credentials": {
+    "username": "demo",
+    "password": "demo"
+  },
+  
+  "workflows": {
+    "order_to_cash": {
+      "description": "Complete Order-to-Cash workflow",
+      "steps": [
+        "login",
+        "navigate_address_book",
+        "create_customer",
+        "navigate_sales_order",
+        "create_sales_order",
+        "inventory_inquiry",
+        "shipment_confirmation",
+        "generate_invoice"
+      ]
+    },
+    "customer_only": {
+      "description": "Create customer only",
+      "steps": ["login", "navigate_address_book", "create_customer"]
+    }
+  },
+  
+  "steps": {
+    "login": {
+      "description": "Authenticate with JDE",
+      "url": "E1Menu.maf",
+      "actions": [
+        {
+          "type": "navigate",
+          "target": "${base_url}/${url}",
+          "wait_until": "networkidle"
+        },
+        {
+          "type": "fill",
+          "field": "username_field",
+          "value": "${credentials.username}"
+        },
+        {
+          "type": "fill",
+          "field": "password_field",
+          "value": "${credentials.password}"
+        },
+        {
+          "type": "click",
+          "element": "login_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        }
+      ],
+      "success_indicators": [
+        "main_menu_visible",
+        "logout_button_present"
+      ]
+    },
+    
+    "navigate_address_book": {
+      "description": "Navigate to Address Book (P01012) via Fast Path",
+      "depends_on": ["login"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "menu_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1000
+        },
+        {
+          "type": "fill",
+          "field": "fast_path_input",
+          "value": "P01012",
+          "force": true
+        },
+        {
+          "type": "press",
+          "key": "Enter"
+        },
+        {
+          "type": "wait_for_frame",
+          "frame_url_pattern": "RunApp.mafService",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        }
+      ],
+      "success_indicators": [
+        "address_book_grid_visible"
+      ]
+    },
+    
+    "create_customer": {
+      "description": "Create new customer in Address Book",
+      "depends_on": ["navigate_address_book"],
+      "actions": [
+        {
+          "type": "refresh_frame_context"
+        },
+        {
+          "type": "click",
+          "element": "add_button"
+        },
+        {
+          "type": "wait_for_element",
+          "element": "customer_name_field",
+          "timeout_ms": 10000,
+          "poll_interval_ms": 500
+        },
+        {
+          "type": "fill",
+          "field": "customer_name_field",
+          "value": "Test Customer"
+        },
+        {
+          "type": "fill",
+          "field": "address_field",
+          "value": "123 Test Street"
+        },
+        {
+          "type": "fill",
+          "field": "city_field",
+          "value": "Newark"
+        },
+        {
+          "type": "fill",
+          "field": "search_type_field",
+          "value": "C"
+        },
+        {
+          "type": "click",
+          "element": "ok_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        }
+      ],
+      "capture_values": [
+        {
+          "name": "customer_number",
+          "from_field": "customer_number_field",
+          "pattern": "DEMO-[0-9]+"
+        }
+      ],
+      "success_indicators": [
+        "customer_saved_confirmation"
+      ]
+    },
+    
+    "navigate_sales_order": {
+      "description": "Navigate to Sales Order Entry (P4210)",
+      "depends_on": ["create_customer"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "menu_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1000
+        },
+        {
+          "type": "fill",
+          "field": "fast_path_input",
+          "value": "P4210",
+          "force": true
+        },
+        {
+          "type": "press",
+          "key": "Enter"
+        },
+        {
+          "type": "wait_for_frame",
+          "frame_url_pattern": "P4210",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        }
+      ],
+      "success_indicators": [
+        "sales_order_grid_visible"
+      ]
+    },
+    
+    "create_sales_order": {
+      "description": "Create new sales order",
+      "depends_on": ["navigate_sales_order"],
+      "actions": [
+        {
+          "type": "refresh_frame_context"
+        },
+        {
+          "type": "click",
+          "element": "add_button"
+        },
+        {
+          "type": "wait_for_element",
+          "element": "ship_to_field",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "fill",
+          "field": "ship_to_field",
+          "value": "1001"
+        },
+        {
+          "type": "fill",
+          "field": "branch_plant_field",
+          "value": "30"
+        },
+        {
+          "type": "fill",
+          "field": "item_number_field",
+          "value": "220"
+        },
+        {
+          "type": "fill",
+          "field": "quantity_field",
+          "value": "5"
+        },
+        {
+          "type": "click",
+          "element": "ok_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        }
+      ],
+      "capture_values": [
+        {
+          "name": "order_number",
+          "from_field": "order_number_field"
+        }
+      ]
+    },
+    
+    "inventory_inquiry": {
+      "description": "Check inventory levels for ordered item",
+      "depends_on": ["create_sales_order"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "menu_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1000
+        },
+        {
+          "type": "fill",
+          "field": "fast_path_input",
+          "value": "P41200",
+          "force": true
+        },
+        {
+          "type": "press",
+          "key": "Enter"
+        },
+        {
+          "type": "wait_for_frame",
+          "frame_url_pattern": "P41200",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        },
+        {
+          "type": "fill",
+          "field": "item_number_field",
+          "value": "220"
+        },
+        {
+          "type": "click",
+          "element": "search_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        }
+      ],
+      "success_indicators": [
+        "inventory_grid_visible"
+      ]
+    },
+    
+    "shipment_confirmation": {
+      "description": "Confirm shipment of sales order",
+      "depends_on": ["inventory_inquiry"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "menu_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1000
+        },
+        {
+          "type": "fill",
+          "field": "fast_path_input",
+          "value": "P4205",
+          "force": true
+        },
+        {
+          "type": "press",
+          "key": "Enter"
+        },
+        {
+          "type": "wait_for_frame",
+          "frame_url_pattern": "P4205",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        },
+        {
+          "type": "fill",
+          "field": "order_number_field",
+          "value": "${captured_values.order_number}"
+        },
+        {
+          "type": "click",
+          "element": "search_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        },
+        {
+          "type": "click",
+          "element": "select_all_checkbox"
+        },
+        {
+          "type": "click",
+          "element": "confirm_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        }
+      ],
+      "success_indicators": [
+        "shipment_confirmed"
+      ]
+    },
+    
+    "generate_invoice": {
+      "description": "Generate invoice for shipped order",
+      "depends_on": ["shipment_confirmation"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "menu_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1000
+        },
+        {
+          "type": "fill",
+          "field": "fast_path_input",
+          "value": "R42800",
+          "force": true
+        },
+        {
+          "type": "press",
+          "key": "Enter"
+        },
+        {
+          "type": "wait_for_frame",
+          "frame_url_pattern": "R42800",
+          "timeout_ms": 10000
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        },
+        {
+          "type": "fill",
+          "field": "order_number_field",
+          "value": "${captured_values.order_number}"
+        },
+        {
+          "type": "click",
+          "element": "submit_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 5000
+        }
+      ],
+      "capture_values": [
+        {
+          "name": "invoice_number",
+          "from_field": "invoice_number_field"
+        }
+      ],
+      "success_indicators": [
+        "invoice_generated"
+      ]
+    },
+    
+    "logout": {
+      "description": "Logout from JDE session",
+      "depends_on": ["generate_invoice"],
+      "actions": [
+        {
+          "type": "click",
+          "element": "logout_button"
+        },
+        {
+          "type": "wait",
+          "duration_ms": 3000
+        }
+      ],
+      "success_indicators": [
+        "login_page_visible"
+      ]
+    }
+  },
+  
+  "selectors": {
+    "username_field": [
+      "input[name='User']",
+      "#User",
+      "input[placeholder*='User' i]"
+    ],
+    "password_field": [
+      "input[name='Password']",
+      "#Password",
+      "input[type='password']"
+    ],
+    "login_button": [
+      "input[type='submit']",
+      "button[type='submit']",
+      "button:has-text('Sign In')"
+    ],
+    "menu_button": [
+      "#drop_mainmenu",
+      "img[alt*='Menu']",
+      "button[title*='Menu' i]"
+    ],
+    "fast_path_input": [
+      "#TE_FAST_PATH_BOX",
+      "input[name*='FastPath' i]",
+      "input[placeholder*='Fast' i]"
+    ],
+    "add_button": [
+      "#hc_Add",
+      "img[alt*='Add']",
+      "button[title*='Add' i]"
+    ],
+    "ok_button": [
+      "#hc_OK",
+      "img[alt*='OK']",
+      "button[title*='OK' i]"
+    ],
+    "customer_name_field": [
+      "#C0_28",
+      "input[name*='Alpha' i]",
+      "input[aria-label*='Alpha' i]"
+    ],
+    "address_field": [
+      "#C0_32",
+      "input[name*='Address' i]",
+      "input[aria-label*='Address' i]"
+    ],
+    "city_field": [
+      "#C0_34",
+      "input[name*='City' i]",
+      "input[aria-label*='City' i]"
+    ],
+    "search_type_field": [
+      "#C0_36",
+      "input[name*='Search' i]",
+      "input[aria-label*='Search' i]"
+    ],
+    "customer_number_field": [
+      "#C0_21",
+      "input[name*='AddressNumber' i]",
+      "input[readonly]"
+    ],
+    "ship_to_field": [
+      "#C0_10",
+      "input[name*='ShipTo' i]",
+      "input[aria-label*='Ship' i]"
+    ],
+    "branch_plant_field": [
+      "#C0_30",
+      "input[name*='Branch' i]",
+      "input[aria-label*='Branch' i]"
+    ],
+    "item_number_field": [
+      "#C0_42",
+      "input[name*='Item' i]",
+      "input[aria-label*='Item' i]"
+    ],
+    "quantity_field": [
+      "#QTY",
+      "input[name*='Quantity' i]",
+      "input[aria-label*='Quantity' i]"
+    ],
+    "order_number_field": [
+      "#C0_25",
+      "input[name*='Order' i]",
+      "input[aria-label*='Order' i]"
+    ],
+    "main_menu_visible": [
+      "#drop_mainmenu",
+      ".mainmenu"
+    ],
+    "logout_button_present": [
+      "a[href*='logout' i]",
+      "button:has-text('Logout')"
+    ],
+    "search_button": [
+      "#hc_Search",
+      "img[alt*='Search']",
+      "button[title*='Search' i]"
+    ],
+    "select_all_checkbox": [
+      "input[type='checkbox']:first-of-type",
+      "#SelectAll",
+      "th input[type='checkbox']"
+    ],
+    "confirm_button": [
+      "#hc_Confirm",
+      "#hc_OK",
+      "button[title*='Confirm' i]"
+    ],
+    "submit_button": [
+      "#hc_Submit",
+      "#hc_OK",
+      "button[type='submit']"
+    ],
+    "invoice_number_field": [
+      "#C0_25",
+      "input[name*='Invoice' i]",
+      "input[aria-label*='Invoice' i]"
+    ],
+    "logout_button": [
+      "#drop_logout",
+      "a[href*='logout' i]",
+      "button:has-text('Logout')"
+    ],
+    "inventory_grid_visible": [
+      ".inventory-grid",
+      "table.data-grid",
+      "[data-testid='inventory-grid']"
+    ],
+    "shipment_confirmed": [
+      ".confirmation-message",
+      "text='Shipment confirmed'",
+      ".success-indicator"
+    ],
+    "invoice_generated": [
+      ".invoice-message",
+      "text='Invoice generated'",
+      "#InvoiceNumber"
+    ],
+    "login_page_visible": [
+      "input[name='User']",
+      "#User",
+      ".login-form"
+    ]
+  },
+  
+  "frames": {
+    "main_menu": {
+      "url_pattern": "E1Menu.maf",
+      "description": "Main JDE menu frame"
+    },
+    "application": {
+      "url_pattern": "RunApp.mafService",
+      "description": "Application content frame"
+    }
+  }
+}

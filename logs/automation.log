@@ -1,0 +1,1246 @@
+2026-03-07 18:48:15 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:48:36 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-48-36-851Z.png {"service":"jde-automation"}
+2026-03-07 18:48:36 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:48:41 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:48:41 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:48:42 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:48:42 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:48:45 [INFO]: Starting JDE logout {"service":"jde-automation"}
+2026-03-07 18:48:45 [INFO]: Attempt 1/3: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:48:47 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:48:47 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:48:47 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:48:47 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:48:47 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:48:48 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:48:50 [WARN]: Selector failed: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:48:55 [WARN]: Selector failed: text=Logout {"service":"jde-automation"}
+2026-03-07 18:49:00 [WARN]: Selector failed: text=Sign Out {"service":"jde-automation"}
+2026-03-07 18:49:05 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-49-05-087Z.png {"service":"jde-automation"}
+2026-03-07 18:49:05 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:49:05 [INFO]: Screenshot saved: ./screenshots/customer-search-start-2026-03-07T23-49-05-211Z.png {"service":"jde-automation"}
+2026-03-07 18:49:05 [WARN]: Text anchor failed: Logout {"service":"jde-automation"}
+2026-03-07 18:49:10 [WARN]: Text anchor failed: Sign Out {"service":"jde-automation"}
+2026-03-07 18:49:10 [WARN]: Attempt 1 failed: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation","error":"Element not found: {\"primary\":\"a[href*=\\\"logout\\\"], button:has-text(\\\"Logout\\\")\",\"alternates\":[\"text=Logout\",\"text=Sign Out\"],\"textAnchors\":[\"Logout\",\"Sign Out\"]}"}
+2026-03-07 18:49:10 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_3189752677905988608&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:49:11 [INFO]: Attempt 2/3: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Selector failed: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Selector failed: text=Logout {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Selector failed: text=Sign Out {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Text anchor failed: Logout {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Text anchor failed: Sign Out {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Attempt 2 failed: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation","error":"Element not found: {\"primary\":\"a[href*=\\\"logout\\\"], button:has-text(\\\"Logout\\\")\",\"alternates\":[\"text=Logout\",\"text=Sign Out\"],\"textAnchors\":[\"Logout\",\"Sign Out\"]}"}
+2026-03-07 18:49:15 [INFO]: Waiting 2000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:49:15 [WARN]: Logout may have failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.logout (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:80:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:19:5
+2026-03-07 18:49:16 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:49:38 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-49-38-178Z.png {"service":"jde-automation"}
+2026-03-07 18:49:38 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:49:43 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:49:43 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:49:43 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:49:43 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:49:46 [INFO]: Starting JDE logout {"service":"jde-automation"}
+2026-03-07 18:49:46 [INFO]: Attempt 1/3: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:49:48 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:49:48 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:49:48 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:49:48 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:49:48 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:49:50 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:49:51 [WARN]: Selector failed: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:49:56 [WARN]: Selector failed: text=Logout {"service":"jde-automation"}
+2026-03-07 18:50:01 [WARN]: Selector failed: text=Sign Out {"service":"jde-automation"}
+2026-03-07 18:50:07 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-50-07-050Z.png {"service":"jde-automation"}
+2026-03-07 18:50:07 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:50:07 [WARN]: Text anchor failed: Logout {"service":"jde-automation"}
+2026-03-07 18:50:07 [INFO]: Screenshot saved: ./screenshots/customer-search-start-2026-03-07T23-50-07-173Z.png {"service":"jde-automation"}
+2026-03-07 18:50:12 [WARN]: Text anchor failed: Sign Out {"service":"jde-automation"}
+2026-03-07 18:50:12 [WARN]: Attempt 1 failed: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation","error":"Element not found: {\"primary\":\"a[href*=\\\"logout\\\"], button:has-text(\\\"Logout\\\")\",\"alternates\":[\"text=Logout\",\"text=Sign Out\"],\"textAnchors\":[\"Logout\",\"Sign Out\"]}"}
+2026-03-07 18:50:12 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_6295331141324068864&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:50:13 [INFO]: Attempt 2/3: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Selector failed: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Selector failed: text=Logout {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Selector failed: text=Sign Out {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Text anchor failed: Logout {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Text anchor failed: Sign Out {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Attempt 2 failed: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation","error":"Element not found: {\"primary\":\"a[href*=\\\"logout\\\"], button:has-text(\\\"Logout\\\")\",\"alternates\":[\"text=Logout\",\"text=Sign Out\"],\"textAnchors\":[\"Logout\",\"Sign Out\"]}"}
+2026-03-07 18:50:16 [INFO]: Waiting 2000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:50:16 [WARN]: Logout may have failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.logout (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:80:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:19:5
+2026-03-07 18:50:18 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:50:39 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-50-39-669Z.png {"service":"jde-automation"}
+2026-03-07 18:50:39 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:50:44 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:50:44 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:50:45 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:50:45 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:50:47 [INFO]: Starting JDE logout {"service":"jde-automation"}
+2026-03-07 18:50:47 [INFO]: Attempt 1/3: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:50:50 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:50:50 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:50:50 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:50:50 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:50:50 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:50:51 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:50:52 [WARN]: Selector failed: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation"}
+2026-03-07 18:50:57 [WARN]: Selector failed: text=Logout {"service":"jde-automation"}
+2026-03-07 18:51:02 [WARN]: Selector failed: text=Sign Out {"service":"jde-automation"}
+2026-03-07 18:51:07 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-51-07-594Z.png {"service":"jde-automation"}
+2026-03-07 18:51:07 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:51:07 [INFO]: Screenshot saved: ./screenshots/customer-search-start-2026-03-07T23-51-07-726Z.png {"service":"jde-automation"}
+2026-03-07 18:51:08 [WARN]: Text anchor failed: Logout {"service":"jde-automation"}
+2026-03-07 18:51:11 [WARN]: Text anchor failed: Sign Out {"service":"jde-automation"}
+2026-03-07 18:51:11 [WARN]: Attempt 1 failed: Click on element: a[href*="logout"], button:has-text("Logout") {"service":"jde-automation","error":"Element not found: {\"primary\":\"a[href*=\\\"logout\\\"], button:has-text(\\\"Logout\\\")\",\"alternates\":[\"text=Logout\",\"text=Sign Out\"],\"textAnchors\":[\"Logout\",\"Sign Out\"]}"}
+2026-03-07 18:51:11 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:51:11 [WARN]: Logout may have failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.logout (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:80:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:19:5
+2026-03-07 18:53:38 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 18:53:39 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:53:39 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:54:01 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-54-01-011Z.png {"service":"jde-automation"}
+2026-03-07 18:54:01 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:54:06 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:54:06 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:54:06 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:54:06 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:54:11 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:54:11 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:54:11 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:54:11 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:54:11 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:54:12 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-54-28-913Z.png {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-07T23-54-29-049Z.png {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 18:54:29 [INFO]: Attempt 1/3: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:54:34 [WARN]: Selector failed: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:54:39 [WARN]: Selector failed: input[id*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:54:44 [WARN]: Selector failed: .fastpath input {"service":"jde-automation"}
+2026-03-07 18:54:49 [WARN]: Selector failed: input[title*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 18:54:54 [WARN]: Text anchor failed: Fast Path {"service":"jde-automation"}
+2026-03-07 18:54:54 [WARN]: Attempt 1 failed: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[placeholder*=\\\"Fast Path\\\" i], input[name*=\\\"fastPath\\\" i]\",\"alternates\":[\"input[id*=\\\"fastPath\\\" i]\",\".fastpath input\",\"input[title*=\\\"Fast Path\\\" i]\"],\"textAnchors\":[\"Fast Path\"]}"}
+2026-03-07 18:54:54 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_6659311202271826944&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:54:55 [INFO]: Attempt 2/3: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:00 [WARN]: Selector failed: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:05 [WARN]: Selector failed: input[id*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:10 [WARN]: Selector failed: .fastpath input {"service":"jde-automation"}
+2026-03-07 18:55:15 [WARN]: Selector failed: input[title*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 18:55:20 [WARN]: Text anchor failed: Fast Path {"service":"jde-automation"}
+2026-03-07 18:55:20 [WARN]: Attempt 2 failed: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[placeholder*=\\\"Fast Path\\\" i], input[name*=\\\"fastPath\\\" i]\",\"alternates\":[\"input[id*=\\\"fastPath\\\" i]\",\".fastpath input\",\"input[title*=\\\"Fast Path\\\" i]\"],\"textAnchors\":[\"Fast Path\"]}"}
+2026-03-07 18:55:20 [INFO]: Waiting 2000ms before retry... {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_6659311202271826944&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 18:55:22 [INFO]: Attempt 3/3: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:27 [WARN]: Selector failed: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:32 [WARN]: Selector failed: input[id*="fastPath" i] {"service":"jde-automation"}
+2026-03-07 18:55:37 [WARN]: Selector failed: .fastpath input {"service":"jde-automation"}
+2026-03-07 18:55:42 [WARN]: Selector failed: input[title*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 18:55:47 [WARN]: Text anchor failed: Fast Path {"service":"jde-automation"}
+2026-03-07 18:55:47 [WARN]: Attempt 3 failed: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[placeholder*=\\\"Fast Path\\\" i], input[name*=\\\"fastPath\\\" i]\",\"alternates\":[\"input[id*=\\\"fastPath\\\" i]\",\".fastpath input\",\"input[title*=\\\"Fast Path\\\" i]\"],\"textAnchors\":[\"Fast Path\"]}"}
+2026-03-07 18:55:47 [ERROR]: All 3 attempts failed: Click on element: input[placeholder*="Fast Path" i], input[name*="fastPath" i] {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[placeholder*=\\\"Fast Path\\\" i], input[name*=\\\"fastPath\\\" i]\",\"alternates\":[\"input[id*=\\\"fastPath\\\" i]\",\".fastpath input\",\"input[title*=\\\"Fast Path\\\" i]\"],\"textAnchors\":[\"Fast Path\"]}"}
+2026-03-07 18:55:47 [ERROR]: Failed to navigate via Fast Path: P01012 Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:55:47 [INFO]: Screenshot saved: ./screenshots/step-2-error-2026-03-07T23-55-47-184Z.png {"service":"jde-automation"}
+2026-03-07 18:55:47 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:55:47 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"input[placeholder*=\"Fast Path\" i], input[name*=\"fastPath\" i]","alternates":["input[id*=\"fastPath\" i]",".fastpath input","input[title*=\"Fast Path\" i]"],"textAnchors":["Fast Path"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:128:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:55:47 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-07T23-55-47-333Z.png {"service":"jde-automation"}
+2026-03-07 18:56:49 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 18:56:51 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:56:51 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:57:12 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-57-12-769Z.png {"service":"jde-automation"}
+2026-03-07 18:57:12 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:57:17 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:57:17 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:57:18 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:57:18 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:57:23 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:57:23 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:57:23 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:57:23 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:57:23 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:57:24 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-57-41-703Z.png {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-07T23-57-41-830Z.png {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:57:41 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 18:58:12 [ERROR]: Failed to navigate via Fast Path: P01012 locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [INFO]: Screenshot saved: ./screenshots/step-2-error-2026-03-07T23-58-12-085Z.png {"service":"jde-automation"}
+2026-03-07 18:58:12 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [ERROR]: Order-to-Cash workflow failed: locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+    - fill("")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:189:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:58:12 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-07T23-58-12-203Z.png {"service":"jde-automation"}
+2026-03-07 18:58:52 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 18:58:53 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:58:53 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 18:59:14 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-07T23-59-14-864Z.png {"service":"jde-automation"}
+2026-03-07 18:59:14 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:59:19 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 18:59:19 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 18:59:20 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:59:20 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:59:25 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 18:59:25 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 18:59:25 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 18:59:25 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:59:25 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:59:26 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-07T23-59-43-629Z.png {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-07T23-59-43-771Z.png {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 18:59:43 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 18:59:59 [ERROR]: Failed to navigate via Fast Path: P01012 locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [INFO]: Screenshot saved: ./screenshots/step-2-error-2026-03-07T23-59-59-172Z.png {"service":"jde-automation"}
+2026-03-07 18:59:59 [ERROR]: Step 2 failed: Navigate to Address Book (P01012) locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [ERROR]: Order-to-Cash workflow failed: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('input[placeholder*="Fast Path" i]').first()
+    - locator resolved to <input name="a" value="" type="text" class="textfield" id="TE_FAST_PATH_BOX" aria-label="Fast Path" placeholder="Fast Path" onfocus="this.select()"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at JDEHelper.navigateByFastPath (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:196:27)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:73:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:72:7)
+2026-03-07 18:59:59 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-07T23-59-59-314Z.png {"service":"jde-automation"}
+2026-03-07 19:00:58 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 19:00:59 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:00:59 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:01:22 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-01-21-976Z.png {"service":"jde-automation"}
+2026-03-07 19:01:22 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:01:27 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:01:27 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:01:27 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:01:27 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:01:32 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:01:32 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:01:32 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:01:32 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:01:32 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:01:33 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T00-01-50-567Z.png {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T00-01-50-710Z.png {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 19:01:50 [INFO]: Using keyboard shortcut to activate Fast Path {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T00-01-54-602Z.png {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T00-01-54-727Z.png {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Clicking button: Add {"service":"jde-automation"}
+2026-03-07 19:01:54 [INFO]: Attempt 1/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:01:59 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:02:04 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:09 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:14 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:02:19 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:24 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:02:24 [WARN]: Attempt 1 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:02:24 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_5144933748836240384&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:25 [INFO]: Attempt 2/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:02:30 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:02:35 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:40 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:45 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:02:50 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:02:55 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:02:55 [WARN]: Attempt 2 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:02:55 [INFO]: Waiting 2000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_5144933748836240384&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:02:57 [INFO]: Attempt 3/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:03:02 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:03:07 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:03:12 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:03:17 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:03:22 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:03:27 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:03:27 [WARN]: Attempt 3 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:03:27 [ERROR]: All 3 attempts failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:03:28 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T00-03-27-876Z.png {"service":"jde-automation"}
+2026-03-07 19:03:28 [ERROR]: Step 3 failed: Create new customer Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:264:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:03:28 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:264:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:03:28 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T00-03-28-025Z.png {"service":"jde-automation"}
+2026-03-07 19:04:39 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:05:01 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-05-01-467Z.png {"service":"jde-automation"}
+2026-03-07 19:05:01 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:06 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:05:06 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:05:06 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:06 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Selector failed: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Selector failed: input[type="password"] {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Selector failed: input[id*="password" i] {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Text anchor failed: Password {"service":"jde-automation"}
+2026-03-07 19:05:09 [WARN]: Attempt 1 failed: Fill element input[name="password"] with value: demo {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[name=\\\"password\\\"]\",\"alternates\":[\"input[name=\\\"Password\\\"]\",\"input[type=\\\"password\\\"]\",\"input[id*=\\\"password\\\" i]\"],\"textAnchors\":[\"Password\"]}"}
+2026-03-07 19:05:09 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:05:09 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:14:5
+2026-03-07 19:05:10 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:05:32 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-05-32-520Z.png {"service":"jde-automation"}
+2026-03-07 19:05:32 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:37 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:05:37 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:05:37 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:37 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Selector failed: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Selector failed: input[type="password"] {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Selector failed: input[id*="password" i] {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Text anchor failed: Password {"service":"jde-automation"}
+2026-03-07 19:05:40 [WARN]: Attempt 1 failed: Fill element input[name="password"] with value: demo {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[name=\\\"password\\\"]\",\"alternates\":[\"input[name=\\\"Password\\\"]\",\"input[type=\\\"password\\\"]\",\"input[id*=\\\"password\\\" i]\"],\"textAnchors\":[\"Password\"]}"}
+2026-03-07 19:05:40 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:05:40 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/tests/customer-search.spec.ts:14:5
+2026-03-07 19:12:30 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 19:12:31 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:12:31 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:12:53 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-12-53-556Z.png {"service":"jde-automation"}
+2026-03-07 19:12:53 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:12:58 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:12:58 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:12:59 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:12:59 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:13:04 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:13:04 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:13:04 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:13:04 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:13:04 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:13:05 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T00-13-21-058Z.png {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T00-13-21-204Z.png {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 19:13:21 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T00-13-23-602Z.png {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T00-13-23-724Z.png {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Clicking button: Add {"service":"jde-automation"}
+2026-03-07 19:13:23 [INFO]: Attempt 1/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:13:28 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:13:33 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:13:38 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:13:43 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:13:48 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:13:53 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:13:53 [WARN]: Attempt 1 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:13:53 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_8783017083892033536&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:13:54 [INFO]: Attempt 2/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:13:59 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:14:04 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:14:09 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:14:14 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:14:19 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:14:24 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:14:24 [WARN]: Attempt 2 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:14:24 [INFO]: Waiting 2000ms before retry... {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/Welcome.mafService?E1CurrentWindowName=E1MENUMAIN_8783017083892033536&e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&namespace=&e1.state=maximized&e1.service=Welcome {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/e1pages/default/home.html?appRelPng=/jde/share/images/welcome/splash_screen_text_only.png&toolsVersion=EnterpriseOne%20Tools%20Release:%209.2.26.0 {"service":"jde-automation"}
+2026-03-07 19:14:26 [INFO]: Found JDE frame: https://demo.steltix.com/jde/share/https_dummy.html {"service":"jde-automation"}
+2026-03-07 19:14:31 [INFO]: Attempt 3/3: Click on element: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:14:36 [WARN]: Selector failed: button:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:14:41 [WARN]: Selector failed: input[type="button"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:14:46 [WARN]: Selector failed: input[type="submit"][value="Add"] {"service":"jde-automation"}
+2026-03-07 19:14:51 [WARN]: Selector failed: a:has-text("Add") {"service":"jde-automation"}
+2026-03-07 19:14:56 [WARN]: Selector failed: [title="Add"] {"service":"jde-automation"}
+2026-03-07 19:15:01 [WARN]: Text anchor failed: Add {"service":"jde-automation"}
+2026-03-07 19:15:01 [WARN]: Attempt 3 failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:15:01 [ERROR]: All 3 attempts failed: Click on element: button:has-text("Add") {"service":"jde-automation","error":"Element not found: {\"primary\":\"button:has-text(\\\"Add\\\")\",\"alternates\":[\"input[type=\\\"button\\\"][value=\\\"Add\\\"]\",\"input[type=\\\"submit\\\"][value=\\\"Add\\\"]\",\"a:has-text(\\\"Add\\\")\",\"[title=\\\"Add\\\"]\"],\"textAnchors\":[\"Add\"]}"}
+2026-03-07 19:15:02 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T00-15-01-868Z.png {"service":"jde-automation"}
+2026-03-07 19:15:02 [ERROR]: Step 3 failed: Create new customer Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:269:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:15:02 [ERROR]: Order-to-Cash workflow failed: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]} {"service":"jde-automation"}
+Error: Element not found: {"primary":"button:has-text(\"Add\")","alternates":["input[type=\"button\"][value=\"Add\"]","input[type=\"submit\"][value=\"Add\"]","a:has-text(\"Add\")","[title=\"Add\"]"],"textAnchors":["Add"]}
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:60:29
+    at async SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:129:24)
+    at async JDEHelper.clickButton (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:269:5)
+    at async OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:184:5)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:15:02 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T00-15-02-022Z.png {"service":"jde-automation"}
+2026-03-07 19:21:10 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 19:21:12 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:21:12 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:21:36 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-21-36-592Z.png {"service":"jde-automation"}
+2026-03-07 19:21:36 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:21:41 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:21:41 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:21:42 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:21:42 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:21:47 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:21:47 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:21:47 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:21:47 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:21:47 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:21:49 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T00-22-06-039Z.png {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T00-22-06-170Z.png {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 19:22:06 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T00-22-08-586Z.png {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T00-22-08-709Z.png {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 19:22:08 [INFO]: Clicking Add button (hc_Add) {"service":"jde-automation"}
+2026-03-07 19:22:19 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T00-22-18-952Z.png {"service":"jde-automation"}
+2026-03-07 19:22:19 [ERROR]: Step 3 failed: Create new customer locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:186:21)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:20
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:18)
+2026-03-07 19:22:19 [ERROR]: Order-to-Cash workflow failed: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#hc_Add, img[alt*="Add"], img[title*="Add"]').first()
+
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:186:21)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:20
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:18)
+2026-03-07 19:22:19 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T00-22-19-087Z.png {"service":"jde-automation"}
+2026-03-07 19:22:47 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 19:22:48 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:22:48 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:23:11 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-23-11-289Z.png {"service":"jde-automation"}
+2026-03-07 19:23:11 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:23:16 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:23:16 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:23:16 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:23:16 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:23:21 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:23:21 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:23:22 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:23:22 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:23:22 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:23:23 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T00-23-40-167Z.png {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T00-23-40-310Z.png {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 19:23:40 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T00-23-42-716Z.png {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T00-23-42-838Z.png {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Clicking Add button (hc_Add) - searching all frames {"service":"jde-automation"}
+2026-03-07 19:23:42 [INFO]: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:23:43 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T00-23-42-982Z.png {"service":"jde-automation"}
+2026-03-07 19:23:43 [ERROR]: Step 3 failed: Create new customer Add button not found in any frame {"service":"jde-automation"}
+Error: Add button not found in any frame
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:206:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:23:43 [ERROR]: Order-to-Cash workflow failed: Add button not found in any frame {"service":"jde-automation"}
+Error: Add button not found in any frame
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:206:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:78:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:152:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:77:7)
+2026-03-07 19:23:43 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T00-23-43-070Z.png {"service":"jde-automation"}
+2026-03-07 19:24:22 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 19:24:23 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:24:23 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 19:24:46 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T00-24-46-616Z.png {"service":"jde-automation"}
+2026-03-07 19:24:46 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:24:51 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 19:24:51 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 19:24:52 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:24:52 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:24:57 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 19:24:57 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 19:24:57 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 19:24:57 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:24:57 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:24:58 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T00-25-15-617Z.png {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T00-25-15-747Z.png {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Found Fast Path input with selector: input[placeholder*="Fast Path" i] {"service":"jde-automation"}
+2026-03-07 19:25:15 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 19:25:18 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T00-25-18-151Z.png {"service":"jde-automation"}
+2026-03-07 19:25:18 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 19:25:18 [INFO]: Waiting for Address Book to load... {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: After P01012 navigation: 17 frames {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T00-25-23-275Z.png {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Clicking Add button (hc_Add) - searching all frames {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Attempt 1/5: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:25:23 [INFO]: Add button not found, waiting... {"service":"jde-automation"}
+2026-03-07 19:25:26 [INFO]: Attempt 2/5: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:25:26 [INFO]: Add button not found, waiting... {"service":"jde-automation"}
+2026-03-07 19:25:29 [INFO]: Attempt 3/5: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:25:29 [INFO]: Add button not found, waiting... {"service":"jde-automation"}
+2026-03-07 19:25:32 [INFO]: Attempt 4/5: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:25:32 [INFO]: Add button not found, waiting... {"service":"jde-automation"}
+2026-03-07 19:25:35 [INFO]: Attempt 5/5: Searching 17 frames for Add button {"service":"jde-automation"}
+2026-03-07 19:25:35 [INFO]: Add button not found, waiting... {"service":"jde-automation"}
+2026-03-07 19:25:38 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T00-25-38-659Z.png {"service":"jde-automation"}
+2026-03-07 19:25:38 [ERROR]: Step 3 failed: Create new customer Add button not found in any frame after multiple attempts {"service":"jde-automation"}
+Error: Add button not found in any frame after multiple attempts
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:235:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 19:25:38 [ERROR]: Order-to-Cash workflow failed: Add button not found in any frame after multiple attempts {"service":"jde-automation"}
+Error: Add button not found in any frame after multiple attempts
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:235:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 19:25:38 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T00-25-38-757Z.png {"service":"jde-automation"}
+2026-03-07 20:14:33 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:14:59 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-14-58-947Z.png {"service":"jde-automation"}
+2026-03-07 20:14:59 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:15:04 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 20:15:04 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 20:15:05 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:15:05 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:15:10 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 20:15:10 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 20:15:11 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:15:11 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:15:11 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:15:12 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:15:29 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T01-15-29-648Z.png {"service":"jde-automation"}
+2026-03-07 20:15:29 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 20:15:29 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 20:15:29 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:15:30 [INFO]: Menu button clicked, waiting for Fast Path to appear {"service":"jde-automation"}
+2026-03-07 20:15:32 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 20:15:32 [INFO]: Found Fast Path input with selector: #TE_FAST_PATH_BOX {"service":"jde-automation"}
+2026-03-07 20:15:32 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 20:15:41 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T01-15-41-086Z.png {"service":"jde-automation"}
+2026-03-07 20:15:41 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 20:17:33 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:17:58 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-17-58-269Z.png {"service":"jde-automation"}
+2026-03-07 20:17:58 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:18:03 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 20:18:03 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 20:18:05 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:18:05 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:18:10 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 20:18:10 [INFO]: Element found with selector: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 20:18:11 [INFO]: Success on attempt 1: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:18:11 [INFO]: Attempt 1/3: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:18:11 [INFO]: Element found with selector: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:18:13 [INFO]: Success on attempt 1: Click on element: input[type="submit"], button[type="submit"] {"service":"jde-automation"}
+2026-03-07 20:18:29 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T01-18-29-369Z.png {"service":"jde-automation"}
+2026-03-07 20:18:29 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 20:18:29 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 20:18:29 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:18:30 [INFO]: Menu button clicked, waiting for Fast Path to appear {"service":"jde-automation"}
+2026-03-07 20:18:32 [INFO]: Found menu frame: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 20:18:32 [INFO]: Found Fast Path input with selector: #TE_FAST_PATH_BOX {"service":"jde-automation"}
+2026-03-07 20:18:32 [INFO]: Using force option to interact with Fast Path {"service":"jde-automation"}
+2026-03-07 20:18:42 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T01-18-41-984Z.png {"service":"jde-automation"}
+2026-03-07 20:18:42 [INFO]: Successfully navigated to P01012 {"service":"jde-automation"}
+2026-03-07 20:40:01 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 20:40:02 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:40:02 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:40:24 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-40-24-205Z.png {"service":"jde-automation"}
+2026-03-07 20:40:24 [INFO]: Attempt 1/3: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:40:29 [WARN]: Selector failed: input[name="username"] {"service":"jde-automation"}
+2026-03-07 20:40:29 [INFO]: Element found with selector: input[name="User"] {"service":"jde-automation"}
+2026-03-07 20:40:29 [INFO]: Success on attempt 1: Fill element input[name="username"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:40:29 [INFO]: Attempt 1/3: Fill element input[name="password"] with value: demo {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Selector failed: input[name="password"] {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Selector failed: input[name="Password"] {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Selector failed: input[type="password"] {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Selector failed: input[id*="password" i] {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Text anchor failed: Password {"service":"jde-automation"}
+2026-03-07 20:40:30 [WARN]: Attempt 1 failed: Fill element input[name="password"] with value: demo {"service":"jde-automation","error":"Element not found: {\"primary\":\"input[name=\\\"password\\\"]\",\"alternates\":[\"input[name=\\\"Password\\\"]\",\"input[type=\\\"password\\\"]\",\"input[id*=\\\"password\\\" i]\"],\"textAnchors\":[\"Password\"]}"}
+2026-03-07 20:40:30 [INFO]: Waiting 1000ms before retry... {"service":"jde-automation"}
+2026-03-07 20:40:30 [ERROR]: JDE login failed: page.waitForTimeout: Target page, context or browser has been closed {"service":"jde-automation"}
+page.waitForTimeout: Target page, context or browser has been closed
+    at SelfHealingLocator.executeWithRetry (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/self-healing.ts:139:27)
+    at async JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:47:7)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:7)
+2026-03-07 20:40:30 [ERROR]: Order-to-Cash workflow failed: page.screenshot: Target page, context or browser has been closed {"service":"jde-automation"}
+page.screenshot: Target page, context or browser has been closed
+    at JDEHelper.takeScreenshot (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:346:21)
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:180:45)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:7)
+2026-03-07 20:46:45 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 20:46:46 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:46:46 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:46:59 [ERROR]: JDE login failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:46:59 [WARN]: Screenshot failed: {"service":"jde-automation"}
+2026-03-07 20:46:59 [WARN]: Screenshot failed: {"service":"jde-automation"}
+2026-03-07 20:46:59 [ERROR]: Step 1 failed: Login to JDE page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:46:59 [ERROR]: Order-to-Cash workflow failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+ {"service":"jde-automation"}
+page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://demo.steltix.com/jde/E1Menu.maf", waiting until "networkidle"
+
+    at JDEHelper.login (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/utils/jde-helper.ts:60:23)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:68:28
+    at OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:13)
+    at OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:67:18)
+    at /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:515:26
+2026-03-07 20:46:59 [WARN]: Screenshot failed: {"service":"jde-automation"}
+2026-03-07 20:47:23 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 20:47:24 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:47:24 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:47:46 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-47-46-403Z.png {"service":"jde-automation"}
+2026-03-07 20:47:46 [INFO]: Username filled {"service":"jde-automation"}
+2026-03-07 20:47:46 [INFO]: Password filled {"service":"jde-automation"}
+2026-03-07 20:47:47 [INFO]: Login submitted {"service":"jde-automation"}
+2026-03-07 20:47:55 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T01-47-55-792Z.png {"service":"jde-automation"}
+2026-03-07 20:47:55 [INFO]: Found main frame (E1Menu): https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 20:47:55 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T01-47-55-922Z.png {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:47:56 [INFO]: Menu button clicked {"service":"jde-automation"}
+2026-03-07 20:47:58 [INFO]: Looking for Fast Path input {"service":"jde-automation"}
+2026-03-07 20:47:58 [INFO]: Filling Fast Path with: P01012 {"service":"jde-automation"}
+2026-03-07 20:47:58 [INFO]: Pressing Enter {"service":"jde-automation"}
+2026-03-07 20:47:59 [INFO]: Waiting for application to load (RunApp.mafService)... {"service":"jde-automation"}
+2026-03-07 20:48:00 [INFO]: Found app frame (RunApp): https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e {"service":"jde-automation"}
+2026-03-07 20:48:00 [INFO]: ✅ Application frame loaded successfully {"service":"jde-automation"}
+2026-03-07 20:48:00 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T01-48-00-005Z.png {"service":"jde-automation"}
+2026-03-07 20:48:00 [INFO]: Navigation to P01012 complete {"service":"jde-automation"}
+2026-03-07 20:48:00 [INFO]: Waiting for Address Book to load... {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: After P01012 navigation: 17 frames {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T01-48-05-078Z.png {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Clicking Add button (hc_Add) {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Looking for Address Book browse frame {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Using current app frame as Address Book browse {"service":"jde-automation"}
+2026-03-07 20:48:05 [INFO]: Add button clicked {"service":"jde-automation"}
+2026-03-07 20:48:10 [INFO]: Looking for Address Book revision form frame {"service":"jde-automation"}
+2026-03-07 20:48:10 [INFO]: Screenshot saved: ./screenshots/step-3-error-2026-03-08T01-48-10-443Z.png {"service":"jde-automation"}
+2026-03-07 20:48:10 [ERROR]: Step 3 failed: Create new customer Address Book Revision form frame not found {"service":"jde-automation"}
+Error: Address Book Revision form frame not found
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:218:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:48:10 [ERROR]: Order-to-Cash workflow failed: Address Book Revision form frame not found {"service":"jde-automation"}
+Error: Address Book Revision form frame not found
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:218:13)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:48:10 [INFO]: Screenshot saved: ./screenshots/workflow-error-2026-03-08T01-48-10-536Z.png {"service":"jde-automation"}
+2026-03-07 20:48:57 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 20:48:59 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:48:59 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:49:21 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-49-21-089Z.png {"service":"jde-automation"}
+2026-03-07 20:49:21 [INFO]: Username filled {"service":"jde-automation"}
+2026-03-07 20:49:21 [INFO]: Password filled {"service":"jde-automation"}
+2026-03-07 20:49:22 [INFO]: Login submitted {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T01-49-30-542Z.png {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Found main frame (E1Menu): https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T01-49-30-659Z.png {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:49:30 [INFO]: Menu button clicked {"service":"jde-automation"}
+2026-03-07 20:49:32 [INFO]: Looking for Fast Path input {"service":"jde-automation"}
+2026-03-07 20:49:32 [INFO]: Filling Fast Path with: P01012 {"service":"jde-automation"}
+2026-03-07 20:49:33 [INFO]: Pressing Enter {"service":"jde-automation"}
+2026-03-07 20:49:34 [INFO]: Waiting for application to load (RunApp.mafService)... {"service":"jde-automation"}
+2026-03-07 20:49:35 [INFO]: Found app frame (RunApp): https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e {"service":"jde-automation"}
+2026-03-07 20:49:35 [INFO]: ✅ Application frame loaded successfully {"service":"jde-automation"}
+2026-03-07 20:49:35 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T01-49-35-020Z.png {"service":"jde-automation"}
+2026-03-07 20:49:35 [INFO]: Navigation to P01012 complete {"service":"jde-automation"}
+2026-03-07 20:49:35 [INFO]: Waiting for Address Book to load... {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: After P01012 navigation: 17 frames {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T01-49-40-220Z.png {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Clicking Add button (hc_Add) {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Looking for Address Book browse frame {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Using current app frame as Address Book browse {"service":"jde-automation"}
+2026-03-07 20:49:40 [INFO]: Add button clicked {"service":"jde-automation"}
+2026-03-07 20:49:45 [INFO]: Looking for Address Book revision form frame {"service":"jde-automation"}
+2026-03-07 20:49:45 [INFO]: No separate revision frame found, checking current frame for form inputs {"service":"jde-automation"}
+2026-03-07 20:49:45 [INFO]: Form detected in current app frame {"service":"jde-automation"}
+2026-03-07 20:49:45 [INFO]: Filling customer information {"service":"jde-automation"}
+2026-03-07 20:49:45 [INFO]: Filled Alpha Name with "Test Automation Customer" {"service":"jde-automation"}
+2026-03-07 20:49:46 [INFO]: Filled Long Address Number with "123 Test Street" {"service":"jde-automation"}
+2026-03-07 20:49:46 [INFO]: Filled Search Type with "C" {"service":"jde-automation"}
+2026-03-07 20:49:47 [INFO]: Filled Business Unit with "30" {"service":"jde-automation"}
+2026-03-07 20:49:47 [INFO]: Clicking OK button to save customer {"service":"jde-automation"}
+2026-03-07 20:49:52 [INFO]: Capturing generated Address Number {"service":"jde-automation"}
+2026-03-07 20:50:22 [WARN]: Could not capture customer number: locator.inputValue: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#C0_21').first()
+ {"service":"jde-automation","name":"TimeoutError"}
+locator.inputValue: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#C0_21').first()
+
+    at OrderToCashWorkflow.createCustomer (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:268:54)
+    at async /Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:91:9
+    at async OrderToCashWorkflow.executeStep (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:165:7)
+    at async OrderToCashWorkflow.execute (/Users/openclawai/.openclaw/workspace/jde-enterprise-automation-lab/scripts/order-to-cash.ts:90:7)
+2026-03-07 20:50:22 [INFO]: Generated demo Customer Number: DEMO-622602 {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Screenshot saved: ./screenshots/step-3-Create-new-customer-2026-03-08T01-50-22-602Z.png {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Step 3 completed: Create new customer {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Executing Step 4: Navigate to Sales Order Entry (P4210) {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Navigating via Fast Path: P4210 {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:50:22 [INFO]: Menu button clicked {"service":"jde-automation"}
+2026-03-07 20:50:24 [INFO]: Looking for Fast Path input {"service":"jde-automation"}
+2026-03-07 20:50:24 [INFO]: Filling Fast Path with: P4210 {"service":"jde-automation"}
+2026-03-07 20:50:25 [INFO]: Pressing Enter {"service":"jde-automation"}
+2026-03-07 20:50:25 [INFO]: Waiting for application to load (RunApp.mafService)... {"service":"jde-automation"}
+2026-03-07 20:50:26 [INFO]: Found app frame (RunApp): https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e {"service":"jde-automation"}
+2026-03-07 20:50:26 [INFO]: ✅ Application frame loaded successfully {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Screenshot saved: ./screenshots/fastpath-P4210-2026-03-08T01-50-26-785Z.png {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Navigation to P4210 complete {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Screenshot saved: ./screenshots/step-4-Navigate-to-Sales-Order-Entry-(P4210)-2026-03-08T01-50-27-006Z.png {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Step 4 completed: Navigate to Sales Order Entry (P4210) {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Executing Step 5: Create sales order {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Creating new sales order {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Clicking toolbar button: Add {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: Found Add button with: #hc_Add {"service":"jde-automation"}
+2026-03-07 20:50:27 [INFO]: ✅ Clicked Add button {"service":"jde-automation"}
+2026-03-07 20:51:57 [WARN]: Screenshot failed: {"service":"jde-automation"}
+2026-03-07 20:53:09 [INFO]: Initializing Order-to-Cash workflow {"service":"jde-automation"}
+2026-03-07 20:53:11 [INFO]: Executing Step 1: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:53:11 [INFO]: Starting JDE login process {"service":"jde-automation"}
+2026-03-07 20:53:33 [INFO]: Screenshot saved: ./screenshots/login-page-2026-03-08T01-53-33-833Z.png {"service":"jde-automation"}
+2026-03-07 20:53:34 [INFO]: Username filled {"service":"jde-automation"}
+2026-03-07 20:53:34 [INFO]: Password filled {"service":"jde-automation"}
+2026-03-07 20:53:35 [INFO]: Login submitted {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Screenshot saved: ./screenshots/login-success-2026-03-08T01-53-43-276Z.png {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Found main frame (E1Menu): https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: JDE login successful {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Screenshot saved: ./screenshots/step-1-Login-to-JDE-2026-03-08T01-53-43-406Z.png {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Step 1 completed: Login to JDE {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Executing Step 2: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Navigating via Fast Path: P01012 {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:53:43 [INFO]: Menu button clicked {"service":"jde-automation"}
+2026-03-07 20:53:45 [INFO]: Looking for Fast Path input {"service":"jde-automation"}
+2026-03-07 20:53:45 [INFO]: Filling Fast Path with: P01012 {"service":"jde-automation"}
+2026-03-07 20:53:46 [INFO]: Pressing Enter {"service":"jde-automation"}
+2026-03-07 20:53:46 [INFO]: Waiting for application to load (RunApp.mafService)... {"service":"jde-automation"}
+2026-03-07 20:53:47 [INFO]: Found app frame (RunApp): https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e {"service":"jde-automation"}
+2026-03-07 20:53:47 [INFO]: ✅ Application frame loaded successfully {"service":"jde-automation"}
+2026-03-07 20:53:47 [INFO]: Screenshot saved: ./screenshots/fastpath-P01012-2026-03-08T01-53-47-489Z.png {"service":"jde-automation"}
+2026-03-07 20:53:47 [INFO]: Navigation to P01012 complete {"service":"jde-automation"}
+2026-03-07 20:53:47 [INFO]: Waiting for Address Book to load... {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: After P01012 navigation: 17 frames {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Screenshot saved: ./screenshots/step-2-Navigate-to-Address-Book-(P01012)-2026-03-08T01-53-52-555Z.png {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Step 2 completed: Navigate to Address Book (P01012) {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Executing Step 3: Create new customer {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Creating new customer in Address Book {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Clicking Add button (hc_Add) {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Looking for Address Book browse frame {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Using current app frame as Address Book browse {"service":"jde-automation"}
+2026-03-07 20:53:52 [INFO]: Add button clicked, waiting for form to load... {"service":"jde-automation"}
+2026-03-07 20:53:55 [INFO]: Waiting for customer form inputs to appear... {"service":"jde-automation"}
+2026-03-07 20:53:57 [INFO]: ✅ Customer form detected! {"service":"jde-automation"}
+2026-03-07 20:53:57 [INFO]: Filling customer information {"service":"jde-automation"}
+2026-03-07 20:53:57 [INFO]: ✅ Filled Alpha Name with "Test Automation Customer" using #C0_28 {"service":"jde-automation"}
+2026-03-07 20:53:57 [INFO]: ✅ Filled Address with "123 Test Street" using #C0_32 {"service":"jde-automation"}
+2026-03-07 20:53:58 [INFO]: ✅ Filled City with "Newark" using #C0_34 {"service":"jde-automation"}
+2026-03-07 20:54:01 [WARN]: ⚠️ Could not fill State - no matching selectors found {"service":"jde-automation"}
+2026-03-07 20:54:01 [INFO]: ✅ Filled Search Type with "C" using #C0_36 {"service":"jde-automation"}
+2026-03-07 20:54:01 [INFO]: Clicking OK button to save customer {"service":"jde-automation"}
+2026-03-07 20:54:02 [INFO]: ✅ OK button clicked {"service":"jde-automation"}
+2026-03-07 20:54:07 [INFO]: Capturing generated Address Number {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Generated demo Customer Number: DEMO-850079 {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Screenshot saved: ./screenshots/step-3-Create-new-customer-2026-03-08T01-54-10-079Z.png {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Step 3 completed: Create new customer {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Executing Step 4: Navigate to Sales Order Entry (P4210) {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Navigating via Fast Path: P4210 {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Clicking main menu button (#drop_mainmenu) {"service":"jde-automation"}
+2026-03-07 20:54:10 [INFO]: Menu button clicked {"service":"jde-automation"}
+2026-03-07 20:54:12 [INFO]: Looking for Fast Path input {"service":"jde-automation"}
+2026-03-07 20:54:12 [INFO]: Filling Fast Path with: P4210 {"service":"jde-automation"}
+2026-03-07 20:54:13 [INFO]: Pressing Enter {"service":"jde-automation"}
+2026-03-07 20:54:13 [INFO]: Waiting for application to load (RunApp.mafService)... {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Found app frame (RunApp): https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: ✅ Application frame loaded successfully {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Screenshot saved: ./screenshots/fastpath-P4210-2026-03-08T01-54-14-228Z.png {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Navigation to P4210 complete {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Screenshot saved: ./screenshots/step-4-Navigate-to-Sales-Order-Entry-(P4210)-2026-03-08T01-54-14-457Z.png {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Step 4 completed: Navigate to Sales Order Entry (P4210) {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Executing Step 5: Create sales order {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Creating new sales order {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Clicking toolbar button: Add {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: Found Add button with: #hc_Add {"service":"jde-automation"}
+2026-03-07 20:54:14 [INFO]: ✅ Clicked Add button {"service":"jde-automation"}
+2026-03-07 20:56:09 [WARN]: Screenshot failed: {"service":"jde-automation"}

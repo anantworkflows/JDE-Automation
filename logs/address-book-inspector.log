@@ -1,0 +1,240 @@
+2026-03-08T01:14:32.108Z [INFO]: Starting Address Book Inspector
+2026-03-08T01:14:33.885Z [INFO]: === STEP 1: Login ===
+2026-03-08T01:15:29.789Z [INFO]: Login successful
+2026-03-08T01:15:29.789Z [INFO]: === STEP 2: Navigate to P01012 (Address Book) ===
+2026-03-08T01:15:41.323Z [INFO]: Navigation to P01012 complete
+2026-03-08T01:15:49.324Z [INFO]: === STEP 3: Inspecting all frames for Address Book ===
+2026-03-08T01:15:49.324Z [INFO]: Found 17 frames
+2026-03-08T01:15:49.324Z [INFO]: 
+--- Frame 0: https://demo.steltix.com/jde/E1Menu.maf?jdeowpBackButtonProtect=PROTECTED ---
+2026-03-08T01:15:49.343Z [INFO]:   Page title: Work With Addresses
+2026-03-08T01:15:49.343Z [INFO]:   Contains Address Book: true
+2026-03-08T01:15:49.343Z [INFO]:   
+  >>> SEARCHING FOR ADD BUTTON <<<
+2026-03-08T01:15:49.356Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[id*="Add"]"
+2026-03-08T01:15:49.356Z [INFO]:       src=spacer.gif, alt=, id=AddToFavIcon, title=null
+2026-03-08T01:15:49.356Z [INFO]:       visible=false, enabled=true
+2026-03-08T01:15:49.363Z [INFO]:   
+  >>> SEARCHING FOR TOOLBAR ICONS <<<
+2026-03-08T01:15:49.370Z [INFO]:   
+  >>> SEARCHING FOR FORM INPUTS <<<
+2026-03-08T01:15:49.370Z [INFO]:     Found 58 input elements
+2026-03-08T01:15:49.375Z [INFO]:     Input 0: type=null, name="null", id="userSearch", placeholder="Search", aria-label="EnterpriseOne Search Input Field. Type in filter and then use down or up arrow to navigate the search options and then use Enter key to start the search with the search option. Use ESC key to navigate back to EnterpriseOne Search Input Field.", title="null"
+2026-03-08T01:15:49.444Z [INFO]:   
+  >>> SEARCHING FOR LABELS <<<
+2026-03-08T01:15:49.860Z [INFO]:     Relevant field labels found: 2
+2026-03-08T01:15:49.861Z [INFO]:       - "Work With Addresses"
+2026-03-08T01:15:49.861Z [INFO]:       - "Name:"
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 1: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 2: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 3: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 4: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 5: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 6: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 7: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 8: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 9: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:49.861Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:49.861Z [INFO]: 
+--- Frame 10: https://demo.steltix.com/jde/RunApp.mafService?e1UserActInfo=true&e1.mode=view&e1.namespace=&RENDER_MAFLET=E1Menu&e1.state=maximized&e1.service=RunApp&RID=16677348225d2eb9 ---
+2026-03-08T01:15:49.865Z [INFO]:   Page title: Work With Addresses
+2026-03-08T01:15:49.865Z [INFO]:   Contains Address Book: true
+2026-03-08T01:15:49.866Z [INFO]:   
+  >>> SEARCHING FOR ADD BUTTON <<<
+2026-03-08T01:15:49.872Z [INFO]:     ✓ ADD BUTTON FOUND: selector="#hc_Add"
+2026-03-08T01:15:49.872Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.872Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.875Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="Add"]"
+2026-03-08T01:15:49.875Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.875Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.879Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[alt*="Add"]"
+2026-03-08T01:15:49.879Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.879Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.882Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[title*="Add"]"
+2026-03-08T01:15:49.882Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.882Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.885Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[id*="Add"]"
+2026-03-08T01:15:49.885Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.885Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.888Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[name*="Add"]"
+2026-03-08T01:15:49.888Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.888Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.892Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.892Z [INFO]:       src=hc_Select.gif, alt=Select (Ctrl+Alt+S), id=hc_Select, title=Select (Ctrl+Alt+S)
+2026-03-08T01:15:49.892Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.898Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.898Z [INFO]:       src=hc_Find.gif, alt=Find (Ctrl+Alt+I), id=hc_Find, title=Find (Ctrl+Alt+I)
+2026-03-08T01:15:49.898Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.900Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.900Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.900Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.903Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.903Z [INFO]:       src=hc_Copy.gif, alt=Copy (Ctrl+Alt+Y), id=hc_Copy, title=Copy (Ctrl+Alt+Y)
+2026-03-08T01:15:49.903Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.905Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.905Z [INFO]:       src=hc_Delete.gif, alt=Delete (Ctrl+Alt+D), id=hc_Delete, title=Delete (Ctrl+Alt+D)
+2026-03-08T01:15:49.905Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.908Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.908Z [INFO]:       src=hc_Close.gif, alt=Close (Ctrl+Alt+L), id=hc_Close, title=Close (Ctrl+Alt+L)
+2026-03-08T01:15:49.908Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.910Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.910Z [INFO]:       src=no-src, alt=null, id=HE0_26hc_Row_Exit, title=null
+2026-03-08T01:15:49.910Z [INFO]:       visible=false, enabled=true
+2026-03-08T01:15:49.913Z [INFO]:     ✓ ADD BUTTON FOUND: selector="[id*="hc_"]"
+2026-03-08T01:15:49.913Z [INFO]:       src=no-src, alt=null, id=HE0_72hc_Report_Exit, title=null
+2026-03-08T01:15:49.913Z [INFO]:       visible=false, enabled=true
+2026-03-08T01:15:49.916Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.916Z [INFO]:       src=hc_Select.gif, alt=Select (Ctrl+Alt+S), id=hc_Select, title=Select (Ctrl+Alt+S)
+2026-03-08T01:15:49.916Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.918Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.918Z [INFO]:       src=hc_Find.gif, alt=Find (Ctrl+Alt+I), id=hc_Find, title=Find (Ctrl+Alt+I)
+2026-03-08T01:15:49.918Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.921Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.921Z [INFO]:       src=hc_Add.gif, alt=Add (Ctrl+Alt+A), id=hc_Add, title=Add (Ctrl+Alt+A)
+2026-03-08T01:15:49.921Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.923Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.923Z [INFO]:       src=hc_Copy.gif, alt=Copy (Ctrl+Alt+Y), id=hc_Copy, title=Copy (Ctrl+Alt+Y)
+2026-03-08T01:15:49.923Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.926Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.926Z [INFO]:       src=hc_Delete.gif, alt=Delete (Ctrl+Alt+D), id=hc_Delete, title=Delete (Ctrl+Alt+D)
+2026-03-08T01:15:49.926Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.928Z [INFO]:     ✓ ADD BUTTON FOUND: selector="img[src*="hc_"]"
+2026-03-08T01:15:49.928Z [INFO]:       src=hc_Close.gif, alt=Close (Ctrl+Alt+L), id=hc_Close, title=Close (Ctrl+Alt+L)
+2026-03-08T01:15:49.928Z [INFO]:       visible=true, enabled=true
+2026-03-08T01:15:49.930Z [INFO]:   
+  >>> SEARCHING FOR TOOLBAR ICONS <<<
+2026-03-08T01:15:49.932Z [INFO]:     Found 4 toolbar images with "[class*="toolbar"] img":
+2026-03-08T01:15:49.933Z [INFO]:       [0] src=func_personlaize_16_ena.png, alt=Personalize Grid
+2026-03-08T01:15:49.934Z [INFO]:       [1] src=hc1.gif, alt=Save Grid Format
+2026-03-08T01:15:49.936Z [INFO]:       [2] src=func_upload_16_btn_ena.png, alt=Export Grid Data (Ctrl + Shift + E)
+2026-03-08T01:15:49.937Z [INFO]:       [3] src=func_maximize_16_ena.png, alt=Maximize Grid (Alt+R)
+2026-03-08T01:15:49.938Z [INFO]:     Found 4 toolbar images with "[class*="tool"] img":
+2026-03-08T01:15:49.939Z [INFO]:       [0] src=func_personlaize_16_ena.png, alt=Personalize Grid
+2026-03-08T01:15:49.940Z [INFO]:       [1] src=hc1.gif, alt=Save Grid Format
+2026-03-08T01:15:49.942Z [INFO]:       [2] src=func_upload_16_btn_ena.png, alt=Export Grid Data (Ctrl + Shift + E)
+2026-03-08T01:15:49.943Z [INFO]:       [3] src=func_maximize_16_ena.png, alt=Maximize Grid (Alt+R)
+2026-03-08T01:15:49.944Z [INFO]:     Found 6 toolbar images with "[class*="button"] img":
+2026-03-08T01:15:49.945Z [INFO]:       [0] src=jdequery_ena.png, alt=Manage Queries
+2026-03-08T01:15:49.946Z [INFO]:       [1] src=jdeclear_ena.png, alt=Clear Form
+2026-03-08T01:15:49.947Z [INFO]:       [2] src=jdewatchlist_ena.png, alt=Manage One View Watchlists
+2026-03-08T01:15:49.949Z [INFO]:       [3] src=PF_personalize_df.png, alt=Personal Form
+2026-03-08T01:15:49.950Z [INFO]:       [4] src=jdehelp_ena.png, alt=Help
+2026-03-08T01:15:49.952Z [INFO]:       [5] src=jdeclose_ena.png, alt=Cancel (Ctrl+Alt+L)
+2026-03-08T01:15:49.952Z [INFO]:   
+  >>> SEARCHING FOR FORM INPUTS <<<
+2026-03-08T01:15:49.952Z [INFO]:     Found 32 input elements
+2026-03-08T01:15:50.006Z [INFO]:     Input 16: type=text, name="0_58", id="C0_58", placeholder="null", aria-label="null", title="Name"
+2026-03-08T01:15:50.011Z [INFO]:     Input 18: type=text, name="0_54", id="C0_54", placeholder="null", aria-label="null", title="Type"
+2026-03-08T01:15:50.014Z [INFO]:     Input 19: type=checkbox, name="0_63", id="C0_63", placeholder="null", aria-label="null", title="OTRA APPL"
+2026-03-08T01:15:50.014Z [INFO]:   
+  >>> SEARCHING FOR LABELS <<<
+2026-03-08T01:15:50.245Z [INFO]:     Relevant field labels found: 11
+2026-03-08T01:15:50.245Z [INFO]:       - "Work With Addresses"
+2026-03-08T01:15:50.245Z [INFO]:       - "Phones"
+2026-03-08T01:15:50.245Z [INFO]:       - "Send Email   
+  Send Meeting Invite   
+  Send Shortcut   
+  Parameterized URL"
+2026-03-08T01:15:50.245Z [INFO]:       - "Send Email"
+2026-03-08T01:15:50.245Z [INFO]:       - "Name
+
+
+
+
+Display Phone
+
+Type
+
+
+
+
+Company
+
+
+OTRA APPL
+
+
+
+Business Unit"
+2026-03-08T01:15:50.245Z [INFO]:       - "Name"
+2026-03-08T01:15:50.245Z [INFO]:       - "Display Phone"
+2026-03-08T01:15:50.245Z [INFO]:       - "AddressNumber"
+2026-03-08T01:15:50.245Z [INFO]:       - "AlphaName"
+2026-03-08T01:15:50.245Z [INFO]:       - "LongAddress"
+2026-03-08T01:15:50.245Z [INFO]:       - "Address Number - 5th"
+2026-03-08T01:15:50.245Z [INFO]: 
+--- Frame 11: about:blank ---
+2026-03-08T01:15:50.245Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:50.245Z [INFO]: 
+--- Frame 12:  ---
+2026-03-08T01:15:50.246Z [INFO]:   Page title: 
+2026-03-08T01:15:50.246Z [INFO]:   Contains Address Book: false
+2026-03-08T01:15:50.246Z [INFO]:   
+  >>> SEARCHING FOR ADD BUTTON <<<
+2026-03-08T01:15:50.253Z [INFO]:   
+  >>> SEARCHING FOR TOOLBAR ICONS <<<
+2026-03-08T01:15:50.255Z [INFO]:   
+  >>> SEARCHING FOR FORM INPUTS <<<
+2026-03-08T01:15:50.255Z [INFO]:     Found 0 input elements
+2026-03-08T01:15:50.255Z [INFO]:   
+  >>> SEARCHING FOR LABELS <<<
+2026-03-08T01:15:50.256Z [INFO]:     Relevant field labels found: 0
+2026-03-08T01:15:50.256Z [INFO]: 
+--- Frame 13: https://guidedlearning.oracle.com/player/launcher/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30 ---
+2026-03-08T01:15:50.257Z [INFO]:   Page title: Oracle Guided Learning Launcher
+2026-03-08T01:15:50.257Z [INFO]:   Contains Address Book: false
+2026-03-08T01:15:50.257Z [INFO]:   
+  >>> SEARCHING FOR ADD BUTTON <<<
+2026-03-08T01:15:50.267Z [INFO]:   
+  >>> SEARCHING FOR TOOLBAR ICONS <<<
+2026-03-08T01:15:50.268Z [INFO]:   
+  >>> SEARCHING FOR FORM INPUTS <<<
+2026-03-08T01:15:50.268Z [INFO]:     Found 0 input elements
+2026-03-08T01:15:50.268Z [INFO]:   
+  >>> SEARCHING FOR LABELS <<<
+2026-03-08T01:15:50.269Z [INFO]:     Relevant field labels found: 0
+2026-03-08T01:15:50.269Z [INFO]: 
+--- Frame 14: https://guidedlearning.oracle.com/player/contentWidget/v2/app/hp815VcaQLGuaXnt3CLDzw/lang/--/?draft=false&min=true&mobile=false&allowKeyboardShortcuts=true&debug=30&helpHotKey=Alt%2BCtrl%2BH&guideHotKey=Alt%2BCtrl%2BG&displayGHroupHotKey=Alt%2BCtrl%2BM&languageSelectionHotKey=Alt%2BCtrl%2BL ---
+2026-03-08T01:15:50.270Z [INFO]:   Page title: Oracle Guided Learning Widget
+2026-03-08T01:15:50.270Z [INFO]:   Contains Address Book: false
+2026-03-08T01:15:50.270Z [INFO]:   
+  >>> SEARCHING FOR ADD BUTTON <<<
+2026-03-08T01:15:50.277Z [INFO]:   
+  >>> SEARCHING FOR TOOLBAR ICONS <<<
+2026-03-08T01:15:50.278Z [INFO]:   
+  >>> SEARCHING FOR FORM INPUTS <<<
+2026-03-08T01:15:50.278Z [INFO]:     Found 1 input elements
+2026-03-08T01:15:50.281Z [INFO]:     Input 0: type=text, name="null", id="null", placeholder="Search...", aria-label="Enter text to search for help guides", title="null"
+2026-03-08T01:15:50.281Z [INFO]:   
+  >>> SEARCHING FOR LABELS <<<
+2026-03-08T01:15:50.284Z [INFO]:     Relevant field labels found: 0
+2026-03-08T01:15:50.284Z [INFO]: 
+--- Frame 15: about:blank ---
+2026-03-08T01:15:50.284Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:50.284Z [INFO]: 
+--- Frame 16: https://demo.steltix.com/jde/share/https_dummy.html ---
+2026-03-08T01:15:50.284Z [INFO]:   (Skipping dummy frame)
+2026-03-08T01:15:50.379Z [INFO]: 
+Screenshot saved: ./screenshots/address-book-inspector.png
+2026-03-08T01:15:50.379Z [INFO]: 
+=== INSPECTION COMPLETE ===
+2026-03-08T01:15:50.379Z [INFO]: Browser will remain open for 60 seconds for manual verification
+2026-03-08T01:16:31.250Z [ERROR]: Inspector failed: page.waitForTimeout: Target page, context or browser has been closed
+2026-03-08T01:16:31.251Z [INFO]: Closing browser...

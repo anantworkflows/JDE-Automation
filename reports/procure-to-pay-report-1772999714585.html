@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JDE Procure-to-Pay Report</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+    .header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 20px; }
+    .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+    .metric-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .metric-value { font-size: 32px; font-weight: bold; color: #333; }
+    .metric-label { color: #666; font-size: 14px; }
+    .success { color: #22c55e; }
+    .error { color: #ef4444; }
+    .steps { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .step { padding: 15px 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+    .step-status { padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .step-status.pass { background: #dcfce7; color: #166534; }
+    .step-status.fail { background: #fee2e2; color: #991b1b; }
+    .captured-values { background: white; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    .value-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; }
+    .timestamp { text-align: center; color: #666; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🛒 JDE Procure-to-Pay Workflow Report</h1>
+    <p>Supplier Purchase Flow Automation</p>
+  </div>
+  
+  <div class="metrics">
+    <div class="metric-card">
+      <div class="metric-value success">100.0%</div>
+      <div class="metric-label">Pass Rate</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">8/8</div>
+      <div class="metric-label">Steps Passed</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">132.0s</div>
+      <div class="metric-label">Total Duration</div>
+    </div>
+  </div>
+  
+  <h2>Execution Steps</h2>
+  <div class="steps">
+    
+      <div class="step">
+        <div>
+          <strong>login</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 27844ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>create_supplier</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 19737ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>create_purchase_order</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 19492ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>receive_goods</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 17399ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>validate_inventory</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 12288ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>create_supplier_invoice</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 14293ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>process_payment</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 17310ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+      <div class="step">
+        <div>
+          <strong>logout</strong>
+          <div style="color: #666; font-size: 12px;">Iteration 1 • 3079ms</div>
+          
+        </div>
+        <span class="step-status pass">PASS</span>
+      </div>
+    
+  </div>
+  
+  <div class="captured-values">
+    <h2>📊 Captured Values</h2>
+    
+        <div class="value-item">
+          <span>SUPPLIER NUMBER</span>
+          <strong>1001</strong>
+        </div>
+      
+  </div>
+  
+  <div class="timestamp">Generated: 3/8/2026, 3:55:14 PM</div>
+</body>
+</html>

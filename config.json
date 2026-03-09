@@ -1,0 +1,55 @@
+{
+  "targetApplication": {
+    "name": "JD Edwards EnterpriseOne",
+    "url": "https://demo.steltix.com/jde/E1Menu.maf",
+    "credentials": {
+      "username": "demo",
+      "password": "demo"
+    }
+  },
+  "browser": {
+    "type": "chromium",
+    "headless": false,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "slowMo": 100
+  },
+  "timeouts": {
+    "navigation": 60000,
+    "action": 30000,
+    "element": 15000,
+    "pageLoad": 45000
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/automation.log",
+    "maxFiles": 5,
+    "maxSize": "10m"
+  },
+  "screenshots": {
+    "enabled": true,
+    "directory": "./screenshots",
+    "onError": true,
+    "onStep": true
+  },
+  "retry": {
+    "maxAttempts": 3,
+    "backoffMs": 1000,
+    "dynamicWait": true
+  },
+  "jde": {
+    "environment": "JDE",
+    "role": "*ALL",
+    "fastPathCodes": {
+      "addressBook": "P01012",
+      "salesOrderEntry": "P4210",
+      "inventoryInquiry": "P41200",
+      "shipmentConfirmation": "P4205",
+      "salesUpdate": "R42800",
+      "customerInquiry": "P01012",
+      "orderInquiry": "P43025"
+    }
+  }
+}

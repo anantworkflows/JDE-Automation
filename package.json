@@ -1,0 +1,45 @@
+{
+  "name": "jde-enterprise-automation-lab",
+  "version": "1.0.0",
+  "description": "JD Edwards EnterpriseOne Automation Suite with Playwright + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "debug": "ts-node scripts/screenshot-debug.ts",
+    "codegen": "playwright codegen",
+    "report": "playwright show-report",
+    "discover": "ts-node scripts/discover-fields.ts",
+    "order-to-cash": "ts-node scripts/order-to-cash.ts",
+    "generate-report": "ts-node scripts/generate-report.ts",
+    "inspect": "ts-node scripts/inspector.ts",
+    "inspect-p01012": "ts-node scripts/inspect-p01012.ts",
+    "guided": "ts-node scripts/guided-walkthrough.ts",
+    "test-p4210": "ts-node scripts/test-p4210.ts",
+    "open": "ts-node scripts/open-jde.ts",
+    "test-fix": "ts-node scripts/test-fastpath-fix.ts",
+    "debug-fp": "ts-node scripts/debug-fastpath.ts",
+    "discover-p4210": "ts-node scripts/discover-p4210.ts"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "jd-edwards",
+    "enterpriseone",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.1",
+    "ts-node": "^10.9.2",
+    "winston": "^3.11.0"
+  }
+}

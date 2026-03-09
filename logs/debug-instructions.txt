@@ -1,0 +1,31 @@
+=== JDE DEBUG SESSION ===
+
+2026-03-08T00:44:14.482Z: Browser opened. Filling credentials...
+2026-03-08T00:44:15.604Z: ✅ Credentials filled. Click the "Sign In" button on the page.
+2026-03-08T00:44:30.682Z: After login: 1 frames found
+2026-03-08T00:44:30.682Z:   Frame 0: https://demo.steltix.com/jde/E1Menu.maf
+2026-03-08T00:44:30.683Z: 
+>>> YOUR TURN <<<
+2026-03-08T00:44:30.683Z: Look for the "Fast Path" text box at the top of the JDE menu
+2026-03-08T00:44:30.683Z: Click on it and type: P01012
+2026-03-08T00:44:30.683Z: Then press Enter
+2026-03-08T00:44:30.683Z: Watch if Address Book opens...
+2026-03-08T00:44:45.757Z: 
+After Fast Path: 1 frames
+2026-03-08T00:44:45.757Z:   Frame 0: https://demo.steltix.com/jde/E1Menu.maf
+2026-03-08T00:44:45.757Z: 
+⚠️  P01012 did NOT load via Fast Path
+2026-03-08T00:44:45.758Z: 
+>>> YOUR TURN <<<
+2026-03-08T00:44:45.758Z: Try using the MENU TREE on the left side:
+2026-03-08T00:44:45.758Z: 1. Look for "Customer Management" or similar
+2026-03-08T00:44:45.758Z: 2. Click to expand folders
+2026-03-08T00:44:45.758Z: 3. Look for "Address Book" or "Daily Processing"
+2026-03-08T00:44:45.758Z: 4. Click on "Address Book" link
+2026-03-08T00:45:05.833Z: 
+After menu navigation: 1 frames
+2026-03-08T00:45:05.833Z:   Frame 0: https://demo.steltix.com/jde/E1Menu.maf
+2026-03-08T00:45:05.898Z: 
+✅ Debug session complete
+2026-03-08T00:45:05.898Z: Screenshots saved in ./screenshots/
+2026-03-08T00:45:05.898Z: Instructions logged to ./logs/debug-instructions.txt
