@@ -48,7 +48,7 @@ class OrderToCashWorkflow {
     logger.info('Initializing Order-to-Cash workflow');
     
     this.browser = await chromium.launch({ 
-      headless: false,
+      headless: process.env.HEADLESS !== 'false',
       slowMo: 150
     });
     
